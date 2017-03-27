@@ -9,7 +9,7 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Rising Venture
+title: "RisingVenture"
 subtitle: "Creating Long-Term Value"
 email: jan@risingventure.com.br
 name: Jan Riehle
@@ -20,7 +20,7 @@ description: A Brazilian based Search Fund.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bencentra.github.io" # the base hostname & protocol for your site
 cover: "/assets/Rising5_X3Large.jpg"
-logo: "/assets/risingventure_logo.png"
+logo: "/assets/rising_symbol.png"
 
 # Build settings
 markdown: kramdown
@@ -172,7 +172,7 @@ social:
     username:
     url:
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
@@ -185,12 +185,12 @@ social:
 # These are for automatically generating sharing metadata for FB and Twitter
 # OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
 protocols:
-    fb_image: "/assets/logo.png"
+    fb_image: "/assets/rising_symbol.png"
     fb_image_width: 612
     fb_image_height: 605
     fb_image_type: "image/png"
 
-    twitter_image: "/assets/logo.png"
+    twitter_image: "/assets/rising_symbol.png"
 
     os_repo: "https://github.com/bencentra/centrarium.com"
     os_rcs_type: "git"
