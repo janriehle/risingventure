@@ -2,208 +2,229 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RisingVenture</title>
-    <description>A Brazilian based Search Fund.</description>
+    <description>A Brazil based Search Fund.</description>
     <link>http://bencentra.github.io/</link>
     <atom:link href="http://bencentra.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Mar 2017 14:07:25 -0300</pubDate>
-    <lastBuildDate>Mon, 27 Mar 2017 14:07:25 -0300</lastBuildDate>
+    <pubDate>Fri, 31 Mar 2017 11:30:13 -0300</pubDate>
+    <lastBuildDate>Fri, 31 Mar 2017 11:30:13 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Search Fund Asset Class in Brazil</title>
+        <description>&lt;p&gt;The concept of a Search Fund is relatively new in the Brazilian Market. Apart from Rising Venture we could identify another five Search Funds operating in the country, all of them are either in the search or in the deal phase.  Find an overview of four funds we could gather some information about below:&lt;/p&gt;
 
-&lt;h2 id=&quot;adding-new-posts&quot;&gt;Adding New Posts&lt;/h2&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Fund&lt;/th&gt;
+    &lt;th&gt;Type&lt;/th&gt;
+    &lt;th&gt;Start-Date&lt;/th&gt;
+    &lt;th&gt;Stage&lt;/th&gt;
+    &lt;th&gt;Team&lt;/th&gt;
+  &lt;/tr&gt;
 
-&lt;h3 id=&quot;tags-and-categories&quot;&gt;Tags and Categories&lt;/h3&gt;
 
-&lt;p&gt;If you list one or more categories or tags in the front matter of your post, they will be included with the post on the page as links. Clicking the link will bring you to an auto-generated archive page for the category or tag, created using the &lt;a href=&quot;https://github.com/jekyll/jekyll-archives&quot;&gt;jekyll-archive&lt;/a&gt; gem.&lt;/p&gt;
+  &lt;tr class=&quot;even&quot;&gt;
+    &lt;td&gt;Taqia Capital&lt;/td&gt;
+    &lt;td&gt;Traditional&lt;/td&gt;
+    &lt;td&gt;January 2015&lt;/td&gt;
+    &lt;td&gt;Deal-Phase&lt;/td&gt;
+    &lt;td&gt;One&lt;/td&gt;
+  &lt;/tr&gt;
 
-&lt;h3 id=&quot;cover-images&quot;&gt;Cover Images&lt;/h3&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Maissa Capital&lt;/td&gt;
+    &lt;td&gt;Traditional&lt;/td&gt;
+    &lt;td&gt;August 2015&lt;/td&gt;
+    &lt;td&gt;Search-Phase&lt;/td&gt;
+    &lt;td&gt;One&lt;/td&gt;
+  &lt;/tr&gt;
 
-&lt;p&gt;To add a cover image to your post, set the “cover” property in the front matter with the relative URL of the image (i.e. &lt;code&gt;cover: &quot;/assets/cover_image.jpg&quot;&lt;/code&gt;).&lt;/p&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Colibri Investimentos&lt;/td&gt;
+    &lt;td&gt;Traditional&lt;/td&gt;
+    &lt;td&gt;March 2016&lt;/td&gt;
+    &lt;td&gt;Deal-Phase&lt;/td&gt;
+    &lt;td&gt;One&lt;/td&gt;
+  &lt;/tr&gt;
 
-&lt;h3 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h3&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Sektra Capital&lt;/td&gt;
+    &lt;td&gt;Self-Funded&lt;/td&gt;
+    &lt;td&gt;January 2016&lt;/td&gt;
+    &lt;td&gt;Search-Phase&lt;/td&gt;
+    &lt;td&gt;One&lt;/td&gt;
+  &lt;/tr&gt;
 
-&lt;p&gt;You can use &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt; to add syntax highlight code snippets:&lt;/p&gt;
+  &lt;tr&gt;
+    &lt;td&gt;220 Capital&lt;/td&gt;
+    &lt;td&gt;Traditional&lt;/td&gt;
+    &lt;td&gt;November 2016&lt;/td&gt;
+    &lt;td&gt;Search-Phase&lt;/td&gt;
+    &lt;td&gt;Two&lt;/td&gt;
+  &lt;/tr&gt;
 
-&lt;p&gt;Use the &lt;a href=&quot;https://github.com/Shopify/liquid/wiki/Liquid-for-Designers&quot;&gt;Liquid&lt;/a&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;lt;language&amp;gt;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; tag to add syntax highlighting to code snippets.&lt;/p&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Risign Venture&lt;/td&gt;
+    &lt;td&gt;Self-Funded but fundraising&lt;/td&gt;
+    &lt;td&gt;April 2016&lt;/td&gt;
+    &lt;td&gt;Fundraising &amp;amp; Search-Phase&lt;/td&gt;
+    &lt;td&gt;One&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
-&lt;p&gt;For instance, this template…&lt;/p&gt;
+&lt;p&gt;To our knowledge there have also been Search Funds during the 90’s as well as in the early 2000’s, some of them also with successful acquisitions and exits. However, most of these funds did not follow the “traditional” Search Fund model but were rather self-funded or funded by a single investor.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;{% highlight javascript %}    
-function demo(string, times) {    
-  for (var i = 0; i &lt;span class=&quot;nt&quot;&gt;&amp;lt; times&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;    
-    &lt;span class=&quot;na&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;    
-  &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
-&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;    
-&lt;span class=&quot;na&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;(&quot;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;hello&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;world&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;!&quot;,&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;{%&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;endhighlight&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;…will come out looking like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;times&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;demo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hello, world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Syntax highlighting is done using &lt;a href=&quot;https://highlightjs.org/&quot;&gt;highlight.js&lt;/a&gt;. You can change the active theme in &lt;a href=&quot;https://github.com/bencentra/centrarium/blob/2dcd73d09e104c3798202b0e14c1db9fa6e77bc7/_includes/head.html#L15&quot;&gt;head.html&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;images&quot;&gt;Images&lt;/h3&gt;
-
-&lt;p&gt;Lightbox has been enabled for images. To create the link that’ll launch the lightbox, add &lt;code&gt;data-lightbox&lt;/code&gt; and &lt;code&gt;data-title&lt;/code&gt; attributes to an &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; tag around your &lt;code&gt;&amp;lt;img&amp;gt;&lt;/code&gt; tag. The result is:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;//bencentra.com/assets/images/falcon9_large.jpg&quot; data-lightbox=&quot;falcon9-large&quot; data-title=&quot;Check out the Falcon 9 from SpaceX&quot;&gt;
-  &lt;img src=&quot;//bencentra.com/assets/images/falcon9_small.jpg&quot; title=&quot;Check out the Falcon 9 from SpaceX&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information, check out the &lt;a href=&quot;http://lokeshdhakar.com/projects/lightbox2/&quot;&gt;Lightbox&lt;/a&gt; website.&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Since the asset-class is not very common in Brazil, the existing traditional Search Funds listed above are all mainly backed by US investors.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/jekyll/2015/04/18/welcome-to-jekyll.html</guid>
+        <pubDate>Tue, 28 Mar 2017 05:43:59 -0300</pubDate>
+        <link>http://bencentra.github.io/information/2017/03/28/Brazil.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/information/2017/03/28/Brazil.html</guid>
         
-        <category>jekyll</category>
+        <category>Search</category>
         
-        <category>welcome</category>
+        <category>Funds</category>
+        
+        <category>in</category>
+        
+        <category>Brazil</category>
         
         
-        <category>Jekyll</category>
+        <category>Information</category>
         
       </item>
     
       <item>
-        <title>Dummy Post 6</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
+        <title>Search Fund Performance Comparison</title>
+        <description>&lt;h2&gt;Average Performance Comparison for Various Asset-Classes&lt;/h2&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;Before deciding on starting a Search-Fund we have done some basic comparison of asset class performance mainly for our own purposes and we would like to share the results here. The data is publicly available and just needs to be pulled together as we did it in the table below.&lt;/p&gt;
+
+&lt;p&gt;We would like to remark that the comparison needs to be handled with care for various reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Average returns for all the examined asset classes varies over time. We try to reflect an average over the last 10 to 15 years&lt;/li&gt;
+
+&lt;li&gt;There are a lot of sources for this kind of data, and they are not all necessarily equal; so we needed to average over several of them - however this approach seems fair to us since there were no outliers with &amp;gt; 10% variation&lt;/li&gt;
+
+&lt;li&gt;IRR is a relative metric as it does not provide any information on the timing of the cash-flows. This means the metric assumes that payouts during the investment cycle could be immediately re-allocated into assets that perform with the same rate of return. This is, however, hardly realistic when dealing with IRR's as high as in the search fund asset class, as there are no other asset classes you could re-apply the payouts&lt;/li&gt;
+
+&lt;li&gt;The comparison to a Brazilian CDB in the end must be interpreted with care since the return is in a different currency with a higher inflation and would need to be adjusted before comparing. Also, the risk profile is of course completely different (with basically zero volatility). Still, we thought it is helpful for Brazilian investors to also provide this comparison, since &quot;Safe returns from CDB&quot;is the argument we mostly heard when pitching startups to Brazilian investors. We think the argument makes sense when comparing to VC/Startup investments, however it does get less persuasive in the comparison to the opportunity to invest in a search-fund&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;th style=&quot;width: 25%;&quot;&gt;Asset Class&lt;/th&gt;&lt;th style=&quot;width: 25%;&quot;&gt;Average IRR&lt;/th&gt;&lt;th style=&quot;width: 25%;&quot;&gt;Top Quartile IRR
+&lt;/th&gt;&lt;th style=&quot;width: 25%;&quot;&gt;Average Multiple&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr class=&quot;even&quot;&gt;
+    &lt;td&gt;US Private Equity&lt;/td&gt;&lt;td&gt;13.7%&lt;/td&gt;&lt;td&gt;36.5%&lt;/td&gt;&lt;td&gt;1.4x&lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;US Venture Capital&lt;/td&gt;&lt;td&gt;8%&lt;/td&gt;&lt;td&gt;20%&lt;/td&gt;&lt;td&gt;1.31x&lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;US Search Fund&lt;/td&gt;&lt;td&gt;36.7%&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;8.4x&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;International Search Fund&lt;/td&gt;&lt;td&gt;33.4%&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;2.8x&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;S&amp;amp;P 500&lt;/td&gt;&lt;td&gt;8%&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Brazilian CDB&lt;/td&gt;&lt;td&gt;12%&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;&lt;td&gt;NA&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;
+Although relatively unknown and without a doubts risky, considering the IRR it can be said that Search Funds are an asset class that can not be afforded to overlook.&lt;/p&gt;
+
+&lt;p&gt;
+We think Search Funds are especially interesting for investors who want to invest smaller tickets in a high performing asset-class. Investors who do not have the opportunity to invest as a Limited Partner in a Private Equity Fund but still would like to enjoy similar ( in fact actually much better) returns. Investors who can afford to only allocate small amounts of capital per investment but who are not satisfied with the highly volatile and lower return profile of startup-investments.&lt;/p&gt;
+
+&lt;p&gt;Investors should be aware of the very high volatility and risk behind search funds however. We copy a part of the latest study from Stanford below:&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;&quot;As an asset class, search funds have achieved an ROI of 8.4x and an IRR of 36.7 percent. When excluding unsuccessful searches in order to further examine the much larger acquisition investment, the overall asset class MOIC increases to 8.5x and the effect on overall IRR is negligible. The median fund returned 1.0x of initial search fund investors’ capital, whereas the top - performing fund returned well over 200x. Excluding search funds that closed without an acquisition, the median return on all search funds that have completed an acquisition is 2.3x ROI.
+
+The overall asset class ROI, which declined from 10.0x in 2013 to 8.3x in 2015, is partly due to recent company valuations of less than 10x, and partly due to the change in calculation methodology for the 2015 study as described at the start of this section.
+
+Since the 2001 study, the aggregate IRR of all search funds (which included both unsuccessful searches and those that completed an acquisition) has tended to fluctuate between 32 and 38 percent, with the exception of the 2007 study, where IRR rose to 52 percent.
+
+The performance of individual search funds has varied widely over the years. Distribution by ROI ranges from greater than 10x for highly successful companies to total loss of capital.
+
+Distribution by IRR ranges from greater than 100 percent to negative; in cases of a total loss of capital, IRR cannot be calculated.&quot;&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;The following picture provides a better understanding of potential outcomes and distribution of such outcomes over a sample of search-funds in the US:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/outcomes.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Another comparison which shows how the IRR is influenced by some very high performing funds provides more information on the distribution of results, it combines findings from a Stanford study with those from an IESE study:&lt;/p&gt;
+
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
+  &lt;tr&gt;
+    &lt;th style=&quot;width: 33%;&quot;&gt;&lt;/th&gt;&lt;th style=&quot;width: 33%;&quot;&gt;IRR - US Search Funds &lt;br /&gt; (Stanford Study)&lt;/th&gt;&lt;th style=&quot;width: 33%;&quot;&gt;IRR - International Search Funds (IESE Study)&lt;/th&gt;
+  &lt;/tr&gt;
+
+  &lt;tr class=&quot;even&quot;&gt;
+    &lt;td&gt;All Search Funds&lt;/td&gt;
+    &lt;td&gt;36.70%&lt;/td&gt;
+    &lt;td&gt;33.40%&lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;Excluding Top-3 Funds&lt;/td&gt;
+    &lt;td&gt;28.80%&lt;/td&gt;
+    &lt;td&gt;28.80%&lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+    &lt;td&gt;Excluding Top-5 Funds&lt;/td&gt;
+    &lt;td&gt;26.70%&lt;/td&gt;
+    &lt;td&gt;17.40%&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;/table&gt;
+
+&lt;p&gt;Although the average performance of US as well as international Search Funds are strongly influenced by the top-performing funds, we find it interesting that the average IRR still remains considerably higher than any other asset class we compared the search fund model to.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/dummy/2015/04/18/dummy6.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/dummy/2015/04/18/dummy6.html</guid>
-        
-        <category>lorem</category>
-        
-        <category>ipsum</category>
+        <pubDate>Sat, 18 Mar 2017 05:43:59 -0300</pubDate>
+        <link>http://bencentra.github.io/information/2017/03/18/performance.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/information/2017/03/18/performance.html</guid>
         
         
-        <category>Dummy</category>
+        <category>Information</category>
         
       </item>
     
       <item>
-        <title>Dummy Post 5</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
+        <title>External Links about Search Funds</title>
+        <description>&lt;p&gt;Please find external links to additional material about search funds below:&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/dummy/2015/04/18/dummy5.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/dummy/2015/04/18/dummy5.html</guid>
-        
-        <category>lorem</category>
-        
-        
-        <category>Dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 4</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.gsb.stanford.edu/sites/gsb/files/files-fpp/26891/ces-search-fund-study-2016.pdf&quot; target=&quot;_blank&quot;&gt;The latest Stanford Searchfund Study&lt;/a&gt;
+&lt;/li&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/dummy/2015/04/18/dummy4.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/dummy/2015/04/18/dummy4.html</guid>
-        
-        <category>ipsum</category>
-        
-        
-        <category>Dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 3</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
+&lt;li&gt;
+&lt;a href=&quot;http://www.iese.edu/research/pdfs/ST-0415-E.pdf&quot; target=&quot;_blank&quot;&gt;Latest Study on International Search Funds from IESE&lt;/a&gt;
+&lt;/li&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/dummy/2015/04/18/dummy3.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/dummy/2015/04/18/dummy3.html</guid>
-        
-        
-        <category>Dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post 2</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.amazon.com.br/gp/product/B01KP33K4Y/ref=kinw_myk_ro_title&quot; target=&quot;_blank&quot;&gt;HBR Guide to Buying a Small Business&lt;/a&gt;
+&lt;/li&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;li&gt;
+&lt;a href=&quot;https://www.searchfunder.com/&quot; target=&quot;_blank&quot;&gt;SEARCHFUNDER - The search fund community&lt;/a&gt;
+&lt;/li&gt;
 </description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/dummy/2015/04/18/dummy2.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/dummy/2015/04/18/dummy2.html</guid>
+        <pubDate>Fri, 17 Mar 2017 05:43:59 -0300</pubDate>
+        <link>http://bencentra.github.io/information/2017/03/17/links.html</link>
+        <guid isPermaLink="true">http://bencentra.github.io/information/2017/03/17/links.html</guid>
         
         
-        <category>Dummy</category>
-        
-      </item>
-    
-      <item>
-        <title>Dummy Post</title>
-        <description>&lt;p&gt;This is just a dummy post. Lorem ipsum and all the rest.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 18 Apr 2015 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/dummy/2015/04/18/dummy.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/dummy/2015/04/18/dummy.html</guid>
-        
-        
-        <category>Dummy</category>
+        <category>Information</category>
         
       </item>
     

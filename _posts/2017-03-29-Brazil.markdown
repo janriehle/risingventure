@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Search Fund Asset Class in Brazil"
+date:   2017-03-28 08:43:59
+author: Jan Riehle
+tags: Search Funds in Brazil
+category: "Information"
+cover:  "/assets/Rising3_X3Large.jpg"
+---
+
+
+The concept of a Search Fund is relatively new in the Brazilian Market. Apart from Rising Venture we could identify another five Search Funds operating in the country, all of them are either in the search or in the deal phase.  Find an overview of four funds we could gather some information about below:
+
+<table cellspacing="0" cellpadding="0">
+
+  <tr>
+    <th>Fund</th>
+    <th>Type</th>
+    <th>Start-Date</th>
+    <th>Stage</th>
+    <th>Team</th>
+  </tr>
+
+
+  <tr class="even">
+    <td>Taqia Capital</td>
+    <td>Traditional</td>
+    <td>January 2015</td>
+    <td>Deal-Phase</td>
+    <td>One</td>
+  </tr>
+
+  <tr>
+    <td>Maissa Capital</td>
+    <td>Traditional</td>
+    <td>August 2015</td>
+    <td>Search-Phase</td>
+    <td>One</td>
+  </tr>
+
+  <tr>
+    <td>Colibri Investimentos</td>
+    <td>Traditional</td>
+    <td>March 2016</td>
+    <td>Deal-Phase</td>
+    <td>One</td>
+  </tr>
+
+  <tr>
+    <td>Sektra Capital</td>
+    <td>Self-Funded</td>
+    <td>January 2016</td>
+    <td>Search-Phase</td>
+    <td>One</td>
+  </tr>
+
+  <tr>
+    <td>220 Capital</td>
+    <td>Traditional</td>
+    <td>November 2016</td>
+    <td>Search-Phase</td>
+    <td>Two</td>
+  </tr>
+
+  <tr>
+    <td>Risign Venture</td>
+    <td>Self-Funded but fundraising</td>
+    <td>April 2016</td>
+    <td>Fundraising & Search-Phase</td>
+    <td>One</td>
+  </tr>
+</table>
+
+To our knowledge there have also been Search Funds during the 90's as well as in the early 2000's, some of them also with successful acquisitions and exits. However, most of these funds did not follow the "traditional" Search Fund model but were rather self-funded or funded by a single investor.
+
+Since the asset-class is not very common in Brazil, the existing traditional Search Funds listed above are all mainly backed by US investors.

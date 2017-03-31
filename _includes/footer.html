@@ -6,9 +6,11 @@
 
     <div class="site-navigation">
 
+      {% assign pages_list = (site.pages | sort: 'order') %}
+
       <p><strong>Site Map</strong></p>
       <ul class="pages">
-        {% for page in site.pages %}
+        {% for page in pages_list %}
         {% if page.title and page.main_nav != false %}
           <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}

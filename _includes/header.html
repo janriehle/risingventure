@@ -7,12 +7,17 @@
       <span>{{ site.title }}</span>
       {% endif %}
     </a>
+
+
+{% assign pages_list = (site.pages | sort: 'order') %}
+
+
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">
       <i class="fa fa-bars"></i>
     </a>
     <nav role="navigation">
       <ul id="js-navigation-menu" class="navigation-menu show">
-        {% for page in site.pages %}
+        {% for page in pages_list %}
           {% if page.title and page.main_nav != false %}
           <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
