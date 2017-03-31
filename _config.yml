@@ -4,10 +4,10 @@
 
 gems: ['kramdown', 'jekyll-paginate', 'jekyll-sitemap', 'jekyll-archives']
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+# exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
 
-# exclude:
-#  - "/vendor/"
+exclude:
+- "/vendor/"
 
 # Site settings
 title: "RisingVenture"
