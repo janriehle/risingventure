@@ -3,10 +3,10 @@
   <channel>
     <title>RisingVenture</title>
     <description>A Brazil based Search Fund.</description>
-    <link>http://bencentra.github.io/</link>
-    <atom:link href="http://bencentra.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Apr 2017 11:23:13 -0300</pubDate>
-    <lastBuildDate>Mon, 03 Apr 2017 11:23:13 -0300</lastBuildDate>
+    <link>https://janriehle.github.io/</link>
+    <atom:link href="https://janriehle.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 03 Apr 2017 12:26:06 -0300</pubDate>
+    <lastBuildDate>Mon, 03 Apr 2017 12:26:06 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -78,8 +78,8 @@
 &lt;p&gt;Since the asset-class is not very common in Brazil, the existing traditional Search Funds listed above are all mainly backed by US investors.&lt;/p&gt;
 </description>
         <pubDate>Tue, 28 Mar 2017 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/2017/03/28/Brazil.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/2017/03/28/Brazil.html</guid>
+        <link>https://janriehle.github.io/information/2017/03/28/Brazil.html</link>
+        <guid isPermaLink="true">https://janriehle.github.io/information/2017/03/28/Brazil.html</guid>
         
         <category>Search</category>
         
@@ -89,6 +89,8 @@
         
         <category>Brazil</category>
         
+        
+        <category>Information</category>
         
       </item>
     
@@ -188,9 +190,11 @@ Distribution by IRR ranges from greater than 100 percent to negative; in cases o
 &lt;p&gt;Although the average performance of US as well as international Search Funds are strongly influenced by the top-performing funds, we find it interesting that the average IRR still remains considerably higher than any other asset class we compared the search fund model to.&lt;/p&gt;
 </description>
         <pubDate>Sat, 18 Mar 2017 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/2017/03/18/performance.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/2017/03/18/performance.html</guid>
+        <link>https://janriehle.github.io/information/2017/03/18/performance.html</link>
+        <guid isPermaLink="true">https://janriehle.github.io/information/2017/03/18/performance.html</guid>
         
+        
+        <category>Information</category>
         
       </item>
     
@@ -216,9 +220,11 @@ Distribution by IRR ranges from greater than 100 percent to negative; in cases o
 &lt;/li&gt;
 </description>
         <pubDate>Fri, 17 Mar 2017 05:43:59 -0300</pubDate>
-        <link>http://bencentra.github.io/2017/03/17/links.html</link>
-        <guid isPermaLink="true">http://bencentra.github.io/2017/03/17/links.html</guid>
+        <link>https://janriehle.github.io/information/2017/03/17/links.html</link>
+        <guid isPermaLink="true">https://janriehle.github.io/information/2017/03/17/links.html</guid>
         
+        
+        <category>Information</category>
         
       </item>
     

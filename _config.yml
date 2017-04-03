@@ -19,7 +19,7 @@ description: A Brazil based Search Fund.
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bencentra.github.io" # the base hostname & protocol for your site
+url: "https://janriehle.github.io" # the base hostname & protocol for your site
 cover: "/assets/Rising5_X3Large.jpg"
 logo: "/assets/rising_symbol.png"
 
@@ -32,13 +32,13 @@ highlightjs_theme: "monokai-sublime"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
 jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+enabled:
+  - categories
+  - tags
+layout: 'archive'
+permalinks:
+category: '/category/:name/'
+tag: '/tag/:name/'
 
 # Disqus comments
 # disqus_shortname: bencentra
