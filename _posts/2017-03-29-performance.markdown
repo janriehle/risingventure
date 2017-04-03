@@ -73,7 +73,7 @@ Distribution by IRR ranges from greater than 100 percent to negative; in cases o
 
 <img src="/assets/outcomes.png">
 
-Another comparison which shows how the IRR is influenced by some very high performing funds provides more information on the distribution of results, it combines findings from a Stanford study with those from an IESE study:
+<p>Another comparison which shows how the IRR is influenced by some very high performing funds provides more information on the distribution of results, it combines findings from a Stanford study with those from an IESE study:</p>
 
 <table cellspacing="0" cellpadding="0">
   <tr>
