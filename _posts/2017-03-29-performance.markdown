@@ -71,7 +71,7 @@ Distribution by IRR ranges from greater than 100 percent to negative; in cases o
 
 <p>The following picture provides a better understanding of potential outcomes and distribution of such outcomes over a sample of search-funds in the US:</p>
 
-<img src="/assets/outcomes.png">
+<img src="{{ site.baseurl }}/assets/outcomes.png">
 
 <p>Another comparison which shows how the IRR is influenced by some very high performing funds provides more information on the distribution of results, it combines findings from a Stanford study with those from an IESE study:</p>
 
