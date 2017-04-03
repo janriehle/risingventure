@@ -4,7 +4,6 @@ title:  "Search Fund Asset Class in Brazil"
 date:   2017-03-28 08:43:59
 author: Jan Riehle
 tags: Search Funds in Brazil
-category: "Information"
 cover:  "/assets/Rising3_X3Large.jpg"
 ---
 
