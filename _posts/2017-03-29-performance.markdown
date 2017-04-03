@@ -3,7 +3,6 @@ layout: post
 title:  "Search Fund Performance Comparison"
 date:   2017-03-18 08:43:59
 author: Jan Riehle
-categories: Information
 cover:  "/assets/Rising3_X3Large.jpg"
 ---
 
