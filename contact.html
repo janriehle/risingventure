@@ -9,48 +9,48 @@ order: 2
 <fieldset>
   <p>Please use the below contact-form to get in touch with us.</p>
 
-  <form action="http://formspree.io/jan@risingventure.com.br" method="POST" type="email" name="_replyto">
+  <form action="http://formspree.io/jan@risingventure.com.br" method="POST">
     <p><label for="text_field">Your Name</label>
-      <input type="text" id="text_field" /></p>
+      <input type="text" id="text_field" name="name"/></p>
 
       <p><label for="text_field">Your Email</label>
-        <input type="text" id="text_field" /></p>
+        <input type="text" id="text_field" name="_replyto"/></p>
 
       <p><label for="select_element">You are:</label>
         <select name="select_element">
 
           <optgroup label="Investor">
-            <option value="1">Investor from Brazil</option>
-            <option value="2">Investor from the US</option>
-            <option value="3">Investor from elsewhere</option>
+            <option value="Investor from Brazil">Investor from Brazil</option>
+            <option value="Investor from the US">Investor from the US</option>
+            <option value="Investor from elsewhere">Investor from elsewhere</option>
           </optgroup>
 
           <optgroup label="Company">
-            <option value="1">Company Owner</option>
-            <option value="2">Company Executive</option>
+            <option value="Company Owner">Company Owner</option>
+            <option value="Company Executive">Company Executive</option>
           </optgroup>
 
           <optgroup label="Intermediary">
-            <option value="1">M&A Firm</option>
-            <option value="2">Broker</option>
-            <option value="3">Investment Bank</option>
-            <option value="4">Other</option>
+            <option value="M&A Firm">M&A Firm</option>
+            <option value="Broker">Broker</option>
+            <option value="Investment Bank">Investment Bank</option>
+            <option value="Other">Other</option>
           </optgroup>
 
           <optgroup label="Applicant">
-            <option value="1">MBA Intern</option>
-            <option value="2">Other Intern</option>
-            <option value="3">Professional</option>
+            <option value="MBA Intern">MBA Intern</option>
+            <option value="Other Intern">Other Intern</option>
+            <option value="Professional">Professional</option>
           </optgroup>
 
       </select></p>
 
     <p><label for="text_area">Your Message:</label>
-      <textarea id="text_area"></textarea></p>
+      <textarea id="text_area" name="text"></textarea></p>
 
 <p>
       <label>
-        <input type="checkbox" class="checkbox" name="checkboxes" value="check_1" /> Please sign me up for your Newsletter.
+        <input type="checkbox" class="checkbox" name="checkboxes" value="yes! sign me up for the newsletter!" /> Please sign me up for your Newsletter.
       </label>
       </p>
 <br>
