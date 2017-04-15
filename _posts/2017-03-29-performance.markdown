@@ -6,8 +6,6 @@ author: Jan Riehle
 cover:  "/assets/Rising3_X3Large.jpg"
 ---
 
-<h2>Average Performance Comparison for Various Asset-Classes</h2>
-
 <p>Before deciding on starting a Search-Fund we have done some basic comparison of asset class performance mainly for our own purposes and we would like to share the results here. The data is publicly available and just needs to be pulled together as we did it in the table below.</p>
 
 <p>We would like to remark that the comparison needs to be handled with care for various reasons:</p>
