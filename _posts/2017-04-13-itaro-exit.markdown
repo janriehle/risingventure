@@ -6,5 +6,11 @@ author: Jan Riehle
 cover:  "/assets/Rising3_X3Large.jpg"
 ---
 
-<p>Find below a link to the press-release  about the acquisition of Itaro (the principal's latest e-commerce company) by Grupo Cantu / Pneustore - one of the 10 biggest distributors in Brazil with 50 years of history in the marketplace: <br><br>
-<a target="_blank" href="https://br.financas.yahoo.com/noticias/grupo-pneustore-compra-autope%C3%A7as-itaro-214756021--finance.html?soc_src=social-sh&soc_trk=fb">Article on Yahoo Brazil</a></p>
+<p>Find below the official press-release issued after realization of the sale of Itaro (the prinicpal's latest venture) to Grupo Cantu, one of Brazil's 10 biggest distribution companies with more than 50 years of history.
+<br><br>
+<a target="_blank" href="/assets/Rle_ItaroxCantu_v1.0.pdf"> Official Press Relase (pdf, in Portuguese)</a>
+<br>
+<a target="_blank" href="/assets/Itaro_Sale_Yahoo.png">Publication of the Sale at Yahoo Brasil (screenshot)</a>
+<br>
+<a target="_blank" href="https://br.financas.yahoo.com/noticias/grupo-pneustore-compra-autope%C3%A7as-itaro-214756021--finance.html?soc_src=social-sh&soc_trk=fb">Article on Yahoo Brazil (external link)</a>
+</p>
