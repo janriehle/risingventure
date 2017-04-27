@@ -10,6 +10,10 @@ cover:  "/assets/Rising3_X3Large.jpg"
 <br><br>
 <a target="_blank" href="/assets/Rle_ItaroxCantu_v1.0.pdf"> Official Press Relase (pdf, in Portuguese)</a>
 <br>
+<a target="_blank" href="https://lavca.org/2017/04/25/astella-investimentos-variv-capital-exit-itaro-sale-pneustore-em-portugues/">Article about the exit on the site of LATAM Venture Investors</a>
+<br>
+<a target="_blank" href="http://www.baguete.com.br/noticias/13/04/2017/pneustore-compra-itaro">Article about the exit on Baguete</a>
+<br>
 <a target="_blank" href="/assets/Itaro_Sale_Yahoo.png">Publication of the Sale at Yahoo Brasil (screenshot)</a>
 <br>
 <a target="_blank" href="https://br.financas.yahoo.com/noticias/grupo-pneustore-compra-autope%C3%A7as-itaro-214756021--finance.html?soc_src=social-sh&soc_trk=fb">Article on Yahoo Brazil (external link)</a>
