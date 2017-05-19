@@ -11,7 +11,11 @@ cover:  "/assets/Rising3_X3Large.jpg"
 
 <ul>
 <li>
-<a target="_blank" href="/assets/Rle_ItaroxCantu_v1.0.pdf"> Official Press Relase (pdf, in Portuguese)</a>
+<a target="_blank" href="/assets/Rle_ItaroxCantu_v1.0.pdf"> Official Press Release (pdf, in Portuguese)</a>
+</li>
+
+<li>
+<a target="_blank" href="/assets/Itaro Exit English.pdf"> Press-Release translation to English (pdf)</a>
 </li>
 
 
@@ -23,10 +27,11 @@ cover:  "/assets/Rising3_X3Large.jpg"
 </li>
 
 <li>
-<a target="_blank" href="/assets/Itaro_Sale_Yahoo.png">Publication of the Sale at Yahoo Brasil (screenshot)</a>
+<a target="_blank" href="https://br.financas.yahoo.com/noticias/grupo-pneustore-compra-autope%C3%A7as-itaro-214756021--finance.html?soc_src=social-sh&soc_trk=fb">Article on Yahoo Brazil (external link)</a>
 </li>
 
 <li>
-<a target="_blank" href="https://br.financas.yahoo.com/noticias/grupo-pneustore-compra-autope%C3%A7as-itaro-214756021--finance.html?soc_src=social-sh&soc_trk=fb">Article on Yahoo Brazil (external link)</a>
+<a target="_blank" href="/assets/Itaro_Sale_Yahoo.png">Publication of the Sale at Yahoo Brasil (screenshot)</a>
 </li>
+
 </ul>
