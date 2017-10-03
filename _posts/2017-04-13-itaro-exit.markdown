@@ -6,7 +6,7 @@ author: Jan Riehle
 cover:  "/assets/Rising3_X3Large.jpg"
 ---
 
-<p>Find below the official press-release issued after realization of the sale of Itaro (the prinicpal's latest venture) to Grupo Cantu, one of Brazil's 10 biggest distribution companies with more than 50 years of history.
+<p>Find below the official press-release issued after realization of the sale of Itaro to Grupo Cantu, one of Brazil's 10 biggest distribution companies with more than 50 years of history.
 <br>
 
 <ul>

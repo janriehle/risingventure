@@ -63,7 +63,7 @@ The concept of a Search Fund is relatively new in the Brazilian Market. Apart fr
 
   <tr>
     <td>Risign Venture</td>
-    <td>Self-Funded but fundraising</td>
+    <td>Self-Funded</td>
     <td>April 2016</td>
     <td>Fundraising & Search-Phase</td>
     <td>One</td>
@@ -72,4 +72,4 @@ The concept of a Search Fund is relatively new in the Brazilian Market. Apart fr
 
 To our knowledge there have also been Search Funds during the 90's as well as in the early 2000's, some of them also with successful acquisitions and exits. However, most of these funds did not follow the "traditional" Search Fund model but were rather self-funded or funded by a single investor.
 
-Since the asset-class is not very common in Brazil, the existing traditional Search Funds listed above are all mainly backed by US investors.
+Since the asset-class is not very common in Brazil, the existing Search Funds listed above are all mainly backed by US investors or they are non-traditional.

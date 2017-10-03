@@ -6,7 +6,7 @@ author: Jan Riehle
 cover:  "/assets/Rising3_X3Large.jpg"
 ---
 
-<p>Find below a link to an article about the implementation of a Multi-Vertical Strategy in e-Commerce written by me and published on the web-portal of Ecommerce Brasil in May 2017:<br>
+<p>Find below a link to an article about the implementation of a Multi-Vertical Strategy in e-Commerce written published on the web-portal of Ecommerce Brasil in May 2017:<br>
 <ul>
 <li><a target="_blank" href="https://www.ecommercebrasil.com.br/artigos/multi-store-alternativa-programa-de-fidelizacao/">Article on E-commerce Brasil (in Portuguese)</a></li>
 </ul></p>
