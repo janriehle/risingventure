@@ -17,7 +17,6 @@ Find below press releases about the deal or visit the company's website for more
 
 <ul>
 <li>
-<br>
 An article about our first months of operations has been published on <a target="_blank" href="http://www.searchfunder.com">searchfunder.com</a> and a <a target="_blank" href="/assets/SEARCHFUNDER.pdf">pdf copy can be accessed here</a>.
 <br>
 </li>
