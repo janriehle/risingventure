@@ -13,11 +13,15 @@ RV together with investors acquired and consolidated the companies in July 2017 
 Find below press releases about the deal or visit the company's website for more information:
 <a target="_blank" href="http://www.b4agroup.com">b4agroup.com</a>
 <br>
-<br>
-An article about our first months of operations has been published on <a target="_blank" href="http://www.searchfunder.com">searchfunder.com</a> and a copy can be accessed <a target="_blank" href="/assets/SEARCHFUNDER.pdf">here</a>.
-<br>
+
 
 <ul>
+<li>
+<br>
+An article about our first months of operations has been published on <a target="_blank" href="http://www.searchfunder.com">searchfunder.com</a> and a <a target="_blank" href="/assets/SEARCHFUNDER.pdf">pdf copy can be accessed here</a>.
+<br>
+</li>
+
 <li>
 <a target="_blank" href="https://ecommercenews.com.br/noticias/parcerias-comerciais/search-fund-brasileira-adquire-glambox-e-mens-market/">Ecommerce News: Search Fund acquires Glambox and Men's Market (in Portuguese)</a>
 </li>
