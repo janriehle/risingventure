@@ -16,9 +16,7 @@ Before moving to Brazil, Jan lived and worked in Germany, Switzerland, France an
 
 In Switzerland, he worked for the Swiss Mid-Market Private Equity Fund [Constellation](http://www.constellation.ch) and for the Swiss M&A Boutique [Kurmann & Partners](http://www.kurmannpartners.ch). In Brazil, he co-founded the e-commerce companies [eOtica](http://www.eotica.com.br), Juv, [Itaro](http://www.itaro.com.br) as well as the Digital Marketing company OndaLocal. He also invested in several startups from 2012 until 2015.
 
-Jan can look back at two exits, selling Itaro to the local distributor Grupo Cantu in 2017 and eOtica in 2015 to the French Holding Essilor. Between 2013 until the exit and following transition phase in 2017, he acted as the CEO of Itaro, which today still is the leading Brazilian e-Commerce company in the automotive-aftermarket space.
-
-Jan also is an Associate Partner in a Brazilian Law Firm, [Lima & Associados](http://www.limaeassociados.com.br), which he built as a service provider around his startup portfolio.
+Jan can look back at two exits, selling Itaro to the local distributor Grupo Cantu in 2017 and eOtica in 2015 to the French Holding Essilor. Between 2013 until the exit and following transition phase in 2017, he acted as the CEO of Itaro, which today is the leading Brazilian e-Commerce company in the automotive-aftermarket.
 
 <h2>History of Rising Venture</h2>
 
@@ -30,12 +28,7 @@ Rising Venture, before its re-launch as a Search-Fund in 2017, was used as the i
 <li><a href="http://www.gaveteiro.com.br" target="_blank">Gaveteiro</a></li>
 </ul>
 
-Another promising company and base for all of Rising Venture's legal needs is the Law-firm:
-<ul>
-<li><a href="http://www.limaeassociados.com.br">Lima & Associados</a></li>
-</ul>
 
-A side note: This website, which has been developed based on the Ruby-on-Rails framework Jekyll, was developed 100% by the principal himself, who is experienced in developing in Ruby and Javascript. <br>
 
 [Gaveteiro]: (http://www.gaveteiro.com.br)
 [Itaro]: (http://www.itaro.com.br)

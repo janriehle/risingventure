@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Risign Venture announced two acqusisitions and launches B4A"
+title:  "Risign Venture announced two acquisitions and launches B4A"
 date:   2017-09-20 11:43:59
 author: Jan Riehle
 cover:  "/assets/Rising3_X3Large.jpg"
@@ -14,7 +14,7 @@ Find below press releases about the deal or visit the company's website for more
 <a target="_blank" href="http://www.b4agroup.com">b4agroup.com</a>
 <br>
 <br>
-An article about our first months of operations will soon be published on <a target="_blank" href="http://www.searchfunder.com">searchfunder.com.</a> 
+An article about our first months of operations has been published on <a target="_blank" href="http://www.searchfunder.com">searchfunder.com</a> and a copy can be accessed <a target="_blank" href="/assets/SEARCHFUNDER.pdf">here</a>.
 <br>
 
 <ul>
