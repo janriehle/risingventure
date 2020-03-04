@@ -32,7 +32,7 @@ GEM
     mercenary (0.3.6)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    puma (3.8.2)
+    puma (3.12.4)
     rack (1.6.5)
     rack-jekyll (0.5.0)
       jekyll (>= 1.3)
