@@ -11,7 +11,7 @@ We closed a 3-months due-diligence and financing period with the acquisition of 
 
 RV together with investors acquired and consolidated the companies in July 2017 and is now operating a holding company that was founded for the purpose of consolidation and synergie creation: B4A. 
 Find below press releases about the deal or visit the company's website for more information:
-<a target="_blank" href="http://www.b4agroup.com">b4agroup.com</a>
+<a target="_blank" href="http://www.b4a.com.br">b4a.com.br</a>
 <br>
 
 
