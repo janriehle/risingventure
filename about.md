@@ -20,21 +20,11 @@ Jan can look back at two exits, selling Itaro to the local distributor Grupo Can
 
 <h2>History of Rising Venture</h2>
 
-Rising Venture, before its re-launch as a Search-Fund in 2017, was used as the investment vehicle for the principal's investment and entrepreneurial activities in Brasil. Apart from the recent exits of Itaro and eOtica, Rising Venture is still holding various startup participations, of which at least three underwent promising developments and managed to thrive, despite the current crisis in the country. These three companies are:
-
-<ul>
-<li><a href="http://www.wedologos.com.br" target="_blank">WeDoLogos</a></li>
-<li><a href="http://www.infracommerce.com.br" target="_blank">Infracommerce</a></li>
-<li><a href="http://www.gaveteiro.com.br" target="_blank">Gaveteiro</a></li>
-</ul>
+Rising Venture, before its re-launch as a Search-Fund in 2017, was used as the investment vehicle for the principal's investment and entrepreneurial activities in Brasil. Apart from the exits of Itaro and eOtica, Rising Venture is still holding various startup participations, of which three underwent promising developments and managed to thrive, one even to realize an IPO at the B3 in 2021. 
 
 
-
-[Gaveteiro]: (http://www.gaveteiro.com.br)
 [Itaro]: (http://www.itaro.com.br)
 [Lima & Associados]: (http://www.limaeassociados.com.br)
-[Infracommerce]: (http://www.infracommerce.com.br)
-[WeDoLogos]: (http://www.wedologos.com.br)
 [eOtica]: (http://www.eotica.com.br)
 [Kurmann & Partners]: (http://www.kurmannpartners.ch)
 [Constellation]: (http://www.constellation.ch)
