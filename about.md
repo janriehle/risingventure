@@ -23,6 +23,8 @@ Jan can reflect upon two exits, having sold Itaro to the local distributor Grupo
 Rising Venture, before its re-launch as a Search-Fund in 2017, was used as the investment vehicle for the principal's investment and entrepreneurial activities in Brasil. Apart from the exits of Itaro and eOtica, Rising Venture is still holding various startup participations, of which three underwent promising developments and managed to thrive, one even to realize an IPO at the B3 in 2021. 
 
 
+
+
 [Itaro]: (http://www.itaro.com.br)
 [Lima & Associados]: (http://www.limaeassociados.com.br)
 [eOtica]: (http://www.eotica.com.br)
