@@ -1,35 +1,33 @@
 ---
 layout: post
-title:  "Update on our Acquisition from 2017"
+title:  "Update on our acquisitions from 2017"
 date:   2023-01-30 08:00:00
 author: Jan Riehle
 cover:  "/assets/Rising3_X3Large.jpg"
 ---
 
 
-<p>It has been 5 years since we acquired and merged two Brazilian beauty-tech companies to form "B4A" (Beauty for All). Our announcement of the acquisition can still be found here, taking us back to the start of this exciting journey. Now, it is time to reflect on our past experience and provide an outlook on the future. This write-up is intended to provide new search fund entrepreneurs with a firsthand account of the search, deal and operating phases, offering a practical learning experience. To make it easier to follow, I will break the following down into chapters:</p>
+<p>It has been 5 years since we acquired and merged two Brazilian beauty-tech companies to form "B4A" (Beauty for All). Our announcement of the acquisition can still be <a href="http://www.risingventure.com.br/2017/09/20/b4a-formation.html">found here</a>, taking us back to the start of this exciting journey. Now, it is time to reflect on our past experience and provide an outlook on the future. This write-up is intended to provide new search fund entrepreneurs with a firsthand account of the search, deal and operating phases, offering a practical learning experience. To make it easier to follow, I will break the following down into chapters:</p>
 
-<p>
-Search- and Dealphase (2017)	
-Post-Acquisition restructuring (2017-18): Looking for break-even	
-Preparing for growth and implementing a new vision (2019/20)	
-Consumers	
-Influencers	
-Beauty Brands	
-Team Building
-Doubling in size every year (2020/21/22)
-Adapting for difficult times (2022)
-The importance of culture and values as a leadership instrument
-The operator in his playing-field
-Crazy entrepreneur or investors with a lack of vision?
-Where are we going with B4A?
-</p>
+<p><b>Search- and Dealphase (2017)</b>
+<br><b>Post-Acquisition restructuring (2017-18): Looking for break-even</b>
+<br><b>Preparing for growth and implementing a new vision (2019/20)</b>
+<br> &nbsp;&nbsp;&nbsp;&nbsp; Consumers
+<br> &nbsp;&nbsp;&nbsp;&nbsp; Influencers
+<br> &nbsp;&nbsp;&nbsp;&nbsp; Beauty Brands
+<br> &nbsp;&nbsp;&nbsp;&nbsp; Team Building
+<br><b>Doubling in size every year (2020/21/22)</b>
+<br><b>Adapting for difficult times (2022)</b>
+<br><b>The importance of culture and values as a leadership instrument</b>
+<br><b>The operator in his playing-field</b>
+<br><b>Crazy entrepreneur or investors with a lack of vision?</b>
+<br><b>Where are we going with B4A?</b></p>
+<br>
 
-<p>
-Search- and Dealphase (2017)
-Shortly after leaving Itaro as CEO in early 2017, I founded Rising Venture, a search fund with the intent of purchasing a mid-market company in Brazil, preferably located in the Sao Paulo region. My search was open to any opportunity that presented itself, though I had a predilection for technology and internet-based companies, given my extensive background in these areas. 
+<p><b>Search- and Dealphase (2017)</b></p>
+<p>Shortly after leaving Itaro as CEO in early 2017, I founded Rising Venture, a search fund with the intent of purchasing a mid-market company in Brazil, preferably located in the Sao Paulo region. My search was open to any opportunity that presented itself, though I had a predilection for technology and internet-based companies, given my extensive background in these areas.</p>
 
-I set out to recruit between 10 and 15 investors to form the standard structure for such a fund. Investors in a search-fund typically fund the search phase, which can span up to two years or more, and also the acquisition once an appropriate target has been located, negotiated, vetted through due diligence, and successfully acquired.
+I set out to recruit between 10 and 15 investors to form the <a href="http://www.risingventure.com.br/what/">standard structure for such a fund</a>. Investors in a search-fund typically fund the search phase, which can span up to two years or more, and also the acquisition once an appropriate target has been located, negotiated, vetted through due diligence, and successfully acquired.
 
 To generate deal flow early on, I reached out to M&A boutiques and other intermediaries and reviewed maybe 10 opportunities in the first two months of search. 
 I soon decided to seize an opportunity to acquire two leading beauty tech companies in Brazil, Glambox and Men's Market. 
@@ -51,16 +49,19 @@ Both companies were already in the midst of planning a merger when I started tal
 In order to not miss out on the opportunity, I funded the acquisition with my own capital and that of only one investor from outside of Brazil. 
 
 I faced a unique challenge in convincing other investors to join the deal, as the two start-ups were not yet profitable - a risk traditional Search Funds, and Search Fund investors, tend to shy away from.
-Post-Acquisition restructuring (2017-18): Looking for break-even
-Upon assuming the role of CEO, my main goal was to lead the company to profitability as quickly as possible. With only some cash from two investors - myself and one external - to draw on, our options were limited. We had to either reach a break-even point within a year, secure a new investor, or be faced with bankruptcy.
+
+<br><b>Post-Acquisition restructuring (2017-18): Looking for break-even</b>
+<br>Upon assuming the role of CEO, my main goal was to lead the company to profitability as quickly as possible. With only some cash from two investors - myself and one external - to draw on, our options were limited. We had to either reach a break-even point within a year, secure a new investor, or be faced with bankruptcy.
 
 In short, after a thorough restructuring, we achieved break-even in mid-2018 - just within the timeline we had to reach this goal. The first year was a continuous effort to keep the company afloat, with negotiations to reduce costs without sacrificing too much revenue.
 
 We successfully achieved a drastic decrease in fixed costs (around 40%) by changing suppliers, renegotiating contracts, and decreasing team size by one-third. This combined with a minor decrease in revenue and a 20% increase in contribution margins enabled us to reach profitability and zero cash burn by mid-2018.
 
-For a more detailed description of this phase, please refer to this article on Searchfunder.com.
-Preparing for growth and implementing a new vision (2019/20)
-At that point, we were operating a profitable business that was Brazil's largest beauty subscription club, as well as a small, albeit unprofitable, e-commerce operation with two direct-to-consumer brands in the male cosmetics market. 
+For a more detailed description of this phase, please refer to <a target="_blank" href="/assets/SEARCHFUNDER.pdf">this article on Searchfunder.com</a>.
+
+
+<br><b>Preparing for growth and implementing a new vision (2019/20)</b>
+<br>At that point, we were operating a profitable business that was Brazil's largest beauty subscription club, as well as a small, albeit unprofitable, e-commerce operation with two direct-to-consumer brands in the male cosmetics market. 
 
 What was lacking was a comprehensive vision to demonstrate the path forward and unlock the ecosystem's full potential. Our objective with B4A was to create a unicorn in the fourth-largest beauty market in the world, not to break even with a mid-market subscription club. 
 
@@ -71,8 +72,9 @@ We drew a roadmap with the purpose of enhancing the attraction and retention of 
 In addition, we created "Data Connect", a data lake which we mainly used to match cosmetic products to consumer preferences in Commerce Connect, but also to match influencers and brands and leverage data for our research projects with and for Beauty brands. 
 
 All elements of the platform were planned to be interconnected, unlocking the potential for reciprocal benefits and synergies and leveraging network effects. 
-Consumers
-From the start, we thought that subscription was simply another way of selling products to consumers. We saw it more as a technicality, whether a product was sold in a single transaction or offered through a subscription experience. Subscription can be divided into "convenience" and "experience" models, the difference being that the former is about acquiring pre-selected products regularly whereas the latter is designed to introduce consumers to new products regularly.
+
+<br><i>Consumers</i>
+<br>From the start, we thought that subscription was simply another way of selling products to consumers. We saw it more as a technicality, whether a product was sold in a single transaction or offered through a subscription experience. Subscription can be divided into "convenience" and "experience" models, the difference being that the former is about acquiring pre-selected products regularly whereas the latter is designed to introduce consumers to new products regularly.
 
 Glambox was initially created to provide a very engaging "experience"-type subscription. Yet, it was missing a key component, which was the sale of products via ecommerce. Conversely, Men's Market focused on traditional transactional ecommerce, offering a variety of third-party and proprietary beauty brands, but without a subscription element.
 
@@ -94,14 +96,16 @@ With this foundation, we developed what we today call the "B4A beauty retail exp
 From the outset, the company also possessed two proprietary beauty brands in the male segment. We took advantage of our expertise in brand creation and product sourcing to also launch two female DNVBs: Glam Beauty and Ella. Glam Beauty, in particular, has flourished and become well-received by our female audience, with an extensive range of products now available in our ecommerce platform.
 
 Our existing ecosystem not only facilitates the distribution of DNVB, as we already possess an established distribution channel, but it also allows us to utilize the marketing tools we offer to beauty brands to our own advantage, as well as to engage in high-volume orders with our industry partners right from the start. Thus, allowing us to achieve better margins than stand-alone DNVBs, thanks to our subscription's capacity to quickly liquidate large amounts of inventory.
-Influencers
-Since the inception of our business, we have heavily relied on virality and influencers to acquire customers. Our Glam Point loyalty program incentivizes customers to introduce their friends to our brand and has since become our second largest channel of B2C acquisition. Additionally, we have created a network of 3,500 micro-influencers to promote our brand, making it our largest channel of B2C acquisition. To facilitate these micro-influencers, we have developed a portal where they can login and check the number of products and subscriptions sold, as well as apply for customized campaigns.
 
-Our initially rudimentary version of "Influencer Connect" has since evolved into a comprehensive suite of apps, including the insertion of third party brand partner's communication campaigns. We prioritized development to maximize value for influencers, granting them the chance to earn money quickly and aiding them in their professional growth leveraging "hub and spoke" network effects. This provided us with a natural source of influencer acquisition, as more and more influencers were drawn to the program by word of mouth.
+<br><i>Influencers</i>
+<br>Since the inception of our business, we have heavily relied on virality and influencers to acquire customers. Our Glam Point loyalty program incentivizes customers to introduce their friends to our brand and has since become our second largest channel of B2C acquisition. Additionally, we have created a network of 3,500 micro-influencers to promote our brand, making it our largest channel of B2C acquisition. To facilitate these micro-influencers, we have developed a portal where they can login and check the number of products and subscriptions sold, as well as apply for customized campaigns.
+
+Our initially rudimentary version of "Influencer Connect" has since evolved into a comprehensive suite of apps, including the insertion of third party brand partner's communication campaigns. We prioritized development to maximize value for influencers, granting them the chance to earn money quickly and aiding them in their professional growth leveraging <a href="https://www.nfx.com/post/16th-network-effect-hub-and-spoke"  target="_blank">"hub and spoke" network effects</a>. This provided us with a natural source of influencer acquisition, as more and more influencers were drawn to the program by word of mouth.
 
 Since 2019, we have been steadily building the foundations of our success in this area, firmly positioning ourselves as the leading broker for brands' influencer campaigns and the most lucrative revenue source for digital influencers in the Brazilian Beauty sector. This has not only allowed us to become independent from Google and Facebook in our own B2C customer acquisition, thus forming a unique form of vertical integration in the ecommerce industry, but has also made us a highly sought-after service among our brand partners.
-Beauty Brands
-Beauty brands have long recognized the value of our ecosystem in providing them with a way to let consumers experiment with their products. From our initial 15,000 subscribers to our current base of nearly 150,000 paying subscribers, Brands have always been able to reach a specialized and segmented target audience. 
+
+<br><i>Beauty Brands</i>
+<br>Beauty brands have long recognized the value of our ecosystem in providing them with a way to let consumers experiment with their products. From our initial 15,000 subscribers to our current base of nearly 150,000 paying subscribers, Brands have always been able to reach a specialized and segmented target audience. 
 
 In 2019, we sought to further capitalize on our connections with consumers by developing additional service offerings for beauty brands. This would involve two distinct new paths: 
 
@@ -109,22 +113,26 @@ Firstly, we planned to provide brands with market intelligence and research serv
 
 Additionally, we invested in marketing and communication tools for brands. We launched “B4A Studios”, a proprietary production facility for social media video- and photo content. This allowed us to provide our brand partners with product placement services into our Social Media productions.  
 Moreover, we invested in our technology to enable users to serve as brand ambassadors and to give brands direct access to our influencer network and the ability to control their campaigns through an automated backend, as described in the section about influencers above.
-Team Building
-As we laid the foundation for our company's strategy for the future in 2019 and 2020, we also took an aggressive approach to team building, searching and employing a leadership team with the capabilities to take us to the next level in the years to come.
-Doubling in size every year (2020/21/22)
-Two and a half years after the acquisition, my investor at the time decided to withdraw their investments from Brazil, prompting me to take on debt in order to buy them out, thus giving me 100% ownership of the company in the early months of 2020.
+
+<br><i>Team Building</i>
+<br>As we laid the foundation for our company's strategy for the future in 2019 and 2020, we also took an aggressive approach to team building, searching and employing a leadership team with the capabilities to take us to the next level in the years to come.
+
+<br><b>Doubling in size every year (2020/21/22)</b>
+<br>Two and a half years after the acquisition, my investor at the time decided to withdraw their investments from Brazil, prompting me to take on debt in order to buy them out, thus giving me 100% ownership of the company in the early months of 2020.
 
 The business was barely managing to break even, we basically operated it at a black zero, using any earnings to grow it more aggressively, leaving little room for error or emergency reserves. The onset of the COVID pandemic at the start of the year filled me with dread, as I was the only one at risk of bearing any consequences for the company I now fully owned, given the tendency of Brazilian courts to disregard the principles of Limited Liability. Luckily, the pandemic proved to be an unexpected growth accelerator for our business, rather than a show-stopper.
 
 Without any external capital, maintaining the company at breakeven, we managed to double in size in 2020. The accelerated shift to online consumption, triggered by COVID-related stay-at-home orders, in combination with a clear roadmap of what we wanted to achieve and a much more prepared team than during the restructuring phase, propelled the business forward. 
 
-Armed with a mission to make beauty accessible to all, we realized towards the end of 2020 that our goal to continue with 100% annual growth would require additional capital, primarily to fund better infrastructure, better process automation and in general the development of our digital product, integral to all above described activities. In 2021, we secured an initial seed round of funding from a Sao Paulo-based fund, followed by a larger Series A raise in 2022, both of which were reported on in the Brazilian press.
+Armed with a mission to make beauty accessible to all, we realized towards the end of 2020 that our goal to continue with 100% annual growth would require additional capital, primarily to fund better infrastructure, better process automation and in general the development of our digital product, integral to all above described activities. In 2021, we secured an initial seed round of funding from a Sao Paulo-based fund, followed by a larger Series A raise in 2022, both of which were reported on <a href="https://www.bloomberg.com/press-releases/2022-06-01/b4a-beauty-for-all-announces-new-investment-round-of-usd-6-million-to-accelerate-operations-in-brazil" target="_blank">in the Brazilian press</a>.
 
 The rounds enabled us to leave the break-even point and establish a sufficient burn rate to allow us to mainly hire a team of additional developers as well as to secure more resources in operations, marketing, and other supporting areas.
-Adapting for difficult times (2022)
-In April/May of 2022, the Brazilian and global startup scene saw dramatic changes. The Federal Reserve raising interest rates and making hawkish statements had a swift and drastic effect on VC activities, leaving startups anxious about their access to capital. At B4A, we were fortunate to have recently closed our Series A round, but we still started preparing for the worst. We came to the conclusion that the following funding round would take much longer than anticipated, likely not occurring until 2024 or later. Similarly to other companies, we adjusted our burn rate to return to a profitable state by Q1 of 2023 while maintaining a decent cash reserve and with the healthiest Balance Sheet the company had since inception.
-The importance of culture and values as a leadership instrument 
-We went through many phases of expanding and decreasing team-size at B4A.  Beginning our journey with a team of around 100 people in 2017, we quickly implemented the necessary cost-cutting measures to reduce the size to around 65 in 2018. This enabled us to reach a breakeven point, allowing us to slowly take on new employees and grow from there. 
+
+<br><b>Adapting for difficult times (2022)</b>
+<br>In April/May of 2022, the Brazilian and global startup scene saw dramatic changes. The Federal Reserve raising interest rates and making hawkish statements had a swift and drastic effect on VC activities, leaving startups anxious about their access to capital. At B4A, we were fortunate to have recently closed our Series A round, but we still started preparing for the worst. We came to the conclusion that the following funding round would take much longer than anticipated, likely not occurring until 2024 or later. Similarly to other companies, we adjusted our burn rate to return to a profitable state by Q1 of 2023 while maintaining a decent cash reserve and with the healthiest Balance Sheet the company had since inception.
+
+<br><b>The importance of culture and values as a leadership instrument</b>
+<br>We went through many phases of expanding and decreasing team-size at B4A.  Beginning our journey with a team of around 100 people in 2017, we quickly implemented the necessary cost-cutting measures to reduce the size to around 65 in 2018. This enabled us to reach a breakeven point, allowing us to slowly take on new employees and grow from there. 
 Following our investment rounds in 2021, we accelerated our growth and achieved a peak of nearly 300 employees in 2022. As we navigated the company back to breakeven towards the end of 2022, we gradually reduced the number of employees towards the end of the year to about 250. 
 
 In the past two years, I have had to develop the necessary skills to manage a company of over two hundred people. This has drastically shifted the dynamics of my role as a CEO. It is still important to remain attentive to detail and do certain tasks myself, particularly if I can do them more effectively than my team; however, this capacity diminishes in value when operating on a larger scale. Additionally, the ability to communicate directly is significantly reduced as hierarchies become more entrenched and chains of command are unavoidable.
@@ -132,15 +140,17 @@ In the past two years, I have had to develop the necessary skills to manage a co
 As we grew, we began to appreciate more and more the elements of leadership that were not so closely tied to our ability to communicate effectively. We realized the importance of establishing values and a clear mission and vision in transforming our organization from a startup to a scaleup. We developed a process to identify and document the principles that fueled our success, enabling us to replicate them across our organization. 
 We now use the values we identified to be more assertive in the selection of new members for our team and to build a culture based on shared principles. 
 Learning how to establish such a leadership system, which works without the active presence of a leader, has been one of the most important lessons for me over the last two years. 
-The operator in his playing-field
-During a conversation with a entrepreneur-friend in Sao Paulo in the Summer of 2022 I realized some truth about myself. My friend said: "I think your success with B4A is mainly due to the fact that you are a great operator". 
+
+<br><b>The operator in his playing-field</b>
+<br>During a conversation with a entrepreneur-friend in Sao Paulo in the Summer of 2022 I realized some truth about myself. My friend said: "I think your success with B4A is mainly due to the fact that you are a great operator". 
 Intrigued about this statement I questioned him what he meant with "operator". 
 "An operator, for me, is a person who knows what to do and when to do it; how to properly prioritize and with whom he needs to talk to in order to get thighs done in the organization" he said. 
 I thought about that. I had more thought of myself as the visionary, who built out strategy and vision. Who came up with the beauty-ecosystem idea. But it pretty quickly became clear to me that he was right. I probably indeed was a great operator. I was in the office 10-12 hours every day, running around and managing a lot of "details" all day long. Making sure things were flowing and nothing got stuck. Creating 30 different whatsapp groups (to the annoyance of many employees) to be able to follow-up on and stay on top of every aspect of the business also outside office hours. That was probably more or less what he ment with "you are a great operator", I realized. 
 
 Operator CEO, in the Search Fund terminology, is the Search Fund entrepreneur after his acquisition, taking over the position of CEO and running the business he acquired. In reality, probably many of the best deal-makers are not necessarily also the best "operators" in the above described fashion. Considering this, I am sometimes wondering why this asset class delivers such high returns: somehow it must attract individuals who possess both skills. Personally, I seemed to check the operator box quite well. 
-Crazy entrepreneur or investors with a lack of vision?
-One thing I often heard when trying to raise capital for B4A was "This is too complex", "You lack focus doing so many things" or "Don't you think you should do one thing properly instead of 10 half-way?". 
+
+<br><b>Crazy entrepreneur or investors with a lack of vision?</b>
+<br>One thing I often heard when trying to raise capital for B4A was "This is too complex", "You lack focus doing so many things" or "Don't you think you should do one thing properly instead of 10 half-way?". 
 
 Maybe investors did not always express such an opinion that clearly, but somewhat that was the message I received from many of the funds I pitched B4A to. 
 
@@ -149,8 +159,9 @@ It was clear to me that, aside from a select few that chose to invest, many did 
 If this is all so clear to me, why has it been so difficult to sell it to investors? 
 Venture Capitalists favor simple solutions and often think similarly when evaluating potential investments. Common questions center around unit economics and lifetime value to cost of acquisition ratios. For B4A, they usually only asked about the consumer side of the business, mostly ignoring the role brands and influencers played, even though they were contributing factors to our success with consumers. Few took the time to look deeper and consider the many contributing factors and variables. 
 Ecosystems as a concept have yet to gain traction with Venture Capitalists, though successful implementations like Apple, Google and Facebook suggest this may be worth reconsidering.
-Where are we going with B4A?
-When we founded B4A through acquisition of the companies Glambox and Men's Market, we considered a trade sale to one of the major beauty or retail players in Brazil over the next 3 to 5 years. However, we now believe we have outgrown, or are close to outgrowing, this option. We still anticipate substantial growth in the future, as we think that we can still drastically improve the value creation for all our three target groups. 
+
+<br><b>Where are we going with B4A?</b>
+<br>When we founded B4A through acquisition of the companies Glambox and Men's Market, we considered a trade sale to one of the major beauty or retail players in Brazil over the next 3 to 5 years. However, we now believe we have outgrown, or are close to outgrowing, this option. We still anticipate substantial growth in the future, as we think that we can still drastically improve the value creation for all our three target groups. 
 
 As consumer behavior shifts from offline to online, we are proud to provide the only ecommerce platform solution worldwide that presents users with product suggestions tailored to their profiles. Our membership shopping concept, hitherto not implemented at scale in the beauty segment, has seen great success in other sectors and we are confident that we can capture a significant portion of the Brazilian beauty market over the long run - feedback from customers has been overwhelmingly positive. We also have plans to also take our beauty retail concept offline in 2023. 
 DNVBs have only recently begun to gain traction, and we believe there is still huge potential for further growth in this area, as Direct-to-Consumer is becoming more and more mainstream.  
@@ -172,101 +183,5 @@ Until 2030 we want to reach:
 <li>as well as 1 K beauty brands as recurring customers and portfolio partners.</li> 
 </ul>
 
-
 Jan Riehle
 São Paulo, January of 2023
-</p>
-
-
-
-<p>Before deciding on starting a Search-Fund we have done some basic comparison of asset class performance mainly for our own purposes and we would like to share the results here. The data is publicly available and just needs to be pulled together as we did it in the table below.</p>
-
-<p>We would like to remark that the comparison needs to be handled with care for various reasons:</p>
-
-<ul>
-<li>Average returns for all the examined asset classes varies over time. We try to reflect an average over the last 10 to 15 years</li>
-
-<li>There are a lot of sources for this kind of data, and they are not all necessarily equal; so we needed to average over several of them - however this approach seems fair to us since there were no outliers with > 10% variation</li>
-
-<li>IRR is a relative metric as it does not provide any information on the timing of the cash-flows. This means the metric assumes that payouts during the investment cycle could be immediately re-allocated into assets that perform with the same rate of return. This is, however, hardly realistic when dealing with IRR's as high as in the search fund asset class, as there are no other asset classes you could re-apply the payouts</li>
-
-<li>The comparison to a Brazilian CDB in the end must be interpreted with care since the return is in a different currency with a higher inflation and would need to be adjusted before comparing. Also, the risk profile is of course completely different (with basically zero volatility). Still, we thought it is helpful for Brazilian investors to also provide this comparison, since "Safe returns from CDB"is the argument we mostly heard when pitching startups to Brazilian investors. We think the argument makes sense when comparing to VC/Startup investments, however it does get less persuasive in the comparison to the opportunity to invest in a search-fund</li>
-</ul>
-
-<table cellspacing="0" cellpadding="0">
-  <tr>
-    <th style="width: 25%;">Asset Class</th><th style="width: 25%;">Average IRR</th><th style="width: 25%;">Top Quartile IRR
-</th><th style="width: 25%;">Average Multiple</th>
-  </tr>
-  <tr class="even">
-    <td>US Private Equity</td><td>13.7%</td><td>36.5%</td><td>1.4x</td>
-  </tr>
-
-  <tr>
-    <td>US Venture Capital</td><td>8%</td><td>20%</td><td>1.31x</td>
-  </tr>
-
-  <tr>
-    <td>US Search Fund</td><td>36.7%</td><td>NA</td><td>8.4x</td>
-  </tr>
-  <tr>
-    <td>International Search Fund</td><td>33.4%</td><td>NA</td><td>2.8x</td>
-  </tr>
-  <tr>
-    <td>S&P 500</td><td>8%</td><td>NA</td><td>NA</td>
-  </tr>
-  <tr>
-    <td>Brazilian CDB</td><td>12%</td><td>NA</td><td>NA</td>
-  </tr>
-</table>
-
-
-<p>
-Although relatively unknown and without a doubts risky, considering the IRR it can be said that Search Funds are an asset class that can not be afforded to overlook.</p>
-
-<p>
-We think Search Funds are especially interesting for investors who want to invest smaller tickets in a high performing asset-class. Investors who do not have the opportunity to invest as a Limited Partner in a Private Equity Fund but still would like to enjoy similar ( in fact actually much better) returns. Investors who can afford to only allocate small amounts of capital per investment but who are not satisfied with the highly volatile and lower return profile of startup-investments.</p>
-
-<p>Investors should be aware of the very high volatility and risk behind search funds however. We copy a part of the latest study from Stanford below:</p>
-
-<p><i>"As an asset class, search funds have achieved an ROI of 8.4x and an IRR of 36.7 percent. When excluding unsuccessful searches in order to further examine the much larger acquisition investment, the overall asset class MOIC increases to 8.5x and the effect on overall IRR is negligible. The median fund returned 1.0x of initial search fund investors’ capital, whereas the top - performing fund returned well over 200x. Excluding search funds that closed without an acquisition, the median return on all search funds that have completed an acquisition is 2.3x ROI.
-
-The overall asset class ROI, which declined from 10.0x in 2013 to 8.3x in 2015, is partly due to recent company valuations of less than 10x, and partly due to the change in calculation methodology for the 2015 study as described at the start of this section.
-
-Since the 2001 study, the aggregate IRR of all search funds (which included both unsuccessful searches and those that completed an acquisition) has tended to fluctuate between 32 and 38 percent, with the exception of the 2007 study, where IRR rose to 52 percent.
-
-The performance of individual search funds has varied widely over the years. Distribution by ROI ranges from greater than 10x for highly successful companies to total loss of capital.
-
-Distribution by IRR ranges from greater than 100 percent to negative; in cases of a total loss of capital, IRR cannot be calculated."</i></p>
-
-<p>The following picture provides a better understanding of potential outcomes and distribution of such outcomes over a sample of search-funds in the US:</p>
-
-<img src="{{ site.baseurl }}/assets/outcomes.png">
-
-<p>Another comparison which shows how the IRR is influenced by some very high performing funds provides more information on the distribution of results, it combines findings from a Stanford study with those from an IESE study:</p>
-
-<table cellspacing="0" cellpadding="0">
-  <tr>
-    <th style="width: 33%;"></th><th style="width: 33%;">IRR - US Search Funds <br> (Stanford Study)</th><th style="width: 33%;">IRR - International Search Funds (IESE Study)</th>
-  </tr>
-
-  <tr class="even">
-    <td>All Search Funds</td>
-    <td>36.70%</td>
-    <td>33.40%</td>
-  </tr>
-
-  <tr>
-    <td>Excluding Top-3 Funds</td>
-    <td>28.80%</td>
-    <td>28.80%</td>
-  </tr>
-
-  <tr>
-    <td>Excluding Top-5 Funds</td>
-    <td>26.70%</td>
-    <td>17.40%</td>
-  </tr>
-  </table>
-
-<p>Although the average performance of US as well as international Search Funds are strongly influenced by the top-performing funds, we find it interesting that the average IRR still remains considerably higher than any other asset class we compared the search fund model to.</p>
