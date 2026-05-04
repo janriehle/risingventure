@@ -22,10 +22,5 @@ export default defineConfig({
     '/2017/03/18/performance.html': '/posts/searchfund-performance',
     '/2017/03/29/links.html': '/posts/external-links',
     '/2017/03/17/links.html': '/posts/external-links',
-    // Old Jekyll page paths (with trailing slash) → new clean URLs
-    '/about/': '/about',
-    '/what/': '/what',
-    '/contact/': '/contact',
-    '/posts/': '/posts',
   },
 });
