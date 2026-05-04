@@ -12,6 +12,20 @@ const { title, description = 'A Brazil-based search fund creating long-term valu
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Canonicalise risingventure.com.br → risingventure.ai (client-side until Option B is done) -->
+    <script is:inline>
+      (function () {
+        var h = window.location.host;
+        if (h === 'www.risingventure.com.br' || h === 'risingventure.com.br') {
+          window.location.replace(
+            'https://risingventure.ai' +
+              window.location.pathname +
+              window.location.search +
+              window.location.hash
+          );
+        }
+      })();
+    </script>
     <meta name="description" content={description} />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
