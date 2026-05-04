@@ -1,0 +1,211 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+
+<Layout title={`${post.data.title} — RisingVenture`} description={post.data.summary}>
+  <Nav />
+
+  <article class="post">
+    <header class="post-hero">
+      <div class="post-mesh"></div>
+      <div class="container">
+        <a href="/posts" class="back-link">
+          <span aria-hidden="true">←</span> All writing
+        </a>
+        <div class="post-meta">
+          <time datetime={post.data.date.toISOString()}>{fmt(post.data.date)}</time>
+          {post.data.tag && <span class="tag">{post.data.tag}</span>}
+          <span class="author">by {post.data.author}</span>
+        </div>
+        <h1>{post.data.title}</h1>
+        {post.data.summary && <p class="lede">{post.data.summary}</p>}
+      </div>
+    </header>
+
+    <div class="post-body">
+      <div class="container">
+        <div class="prose">
+          <Content />
+        </div>
+      </div>
+    </div>
+
+    <div class="post-end container">
+      <a href="/posts" class="back-link">
+        <span aria-hidden="true">←</span> Back to all writing
+      </a>
+    </div>
+  </article>
+
+  <Footer />
+</Layout>
+
+<style>
+  .container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .post-hero {
+    position: relative;
+    padding: 160px 0 60px;
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+  }
+  .post-mesh {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(700px 320px at 30% 0%, rgba(110, 231, 255, 0.15), transparent 60%),
+      radial-gradient(600px 320px at 80% 0%, rgba(167, 139, 250, 0.12), transparent 60%);
+    z-index: 0;
+    filter: blur(20px);
+  }
+  .post-hero .container {
+    position: relative;
+    z-index: 1;
+  }
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--fg-muted);
+    margin-bottom: 30px;
+    transition: color 0.2s ease;
+  }
+  .back-link:hover {
+    color: var(--accent);
+  }
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--fg-muted);
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    letter-spacing: 0.03em;
+  }
+  .tag {
+    padding: 3px 10px;
+    border: 1px solid var(--border-strong);
+    border-radius: 4px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 10.5px;
+  }
+  .author {
+    color: var(--fg-subtle);
+  }
+  .post-hero h1 {
+    font-size: clamp(1.9rem, 4vw, 2.9rem);
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.1;
+    margin: 0 0 18px;
+    color: var(--fg);
+  }
+  .lede {
+    font-size: clamp(15px, 1.3vw, 17.5px);
+    color: var(--fg-muted);
+    line-height: 1.55;
+    margin: 0;
+  }
+  .post-body {
+    padding: 60px 0 80px;
+  }
+  .post-end {
+    padding-bottom: 60px;
+  }
+</style>
+
+<style is:global>
+  /* Post-specific prose tweaks */
+  .post-body .prose {
+    max-width: none;
+    font-size: 17px;
+    line-height: 1.78;
+  }
+  .post-body .prose h2 {
+    font-size: 1.6rem;
+    margin-top: 56px;
+  }
+  .post-body .prose h3 {
+    font-size: 1.2rem;
+    margin-top: 40px;
+  }
+  .post-body .prose h2 span[id],
+  .post-body .prose h3 span[id] {
+    scroll-margin-top: 100px;
+  }
+  .post-toc {
+    margin: 32px 0 48px;
+    padding: 24px 28px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-elevated);
+    font-size: 14.5px;
+  }
+  .post-toc strong {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fg-subtle);
+    font-weight: 500;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .post-toc ol {
+    list-style: none;
+    counter-reset: section;
+    padding: 0;
+    margin: 0;
+  }
+  .post-toc ol li {
+    counter-increment: section;
+    margin: 6px 0;
+  }
+  .post-toc ol li::before {
+    content: counters(section, '.') '. ';
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    margin-right: 6px;
+  }
+  .post-toc ol ol {
+    margin: 4px 0 4px 18px;
+    counter-reset: subsection;
+  }
+  .post-toc ol ol li::before {
+    content: counters(section, '.') ' ';
+  }
+  .post-toc a {
+    color: var(--fg-muted);
+    border: none;
+  }
+  .post-toc a:hover {
+    color: var(--accent);
+  }
+</style>

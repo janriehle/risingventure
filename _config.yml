@@ -4,7 +4,7 @@
 
 gems: ['kramdown', 'jekyll-paginate', 'jekyll-sitemap', 'jekyll-archives', 'jekyll', 'bundler']
 
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile', 'site', 'site/', '.github', 'node_modules']
 
 # exclude:
 # - "/vendor/"

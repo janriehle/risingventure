@@ -1,0 +1,121 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.getTime() - a.data.date.getTime()
+);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+---
+
+<PageLayout
+  title="Writing — RisingVenture"
+  description="Notes from the search fund and the operating phase."
+  kicker="writing"
+  heading="Notes from the search and operating phase."
+  lede="A small archive — search-fund analysis, the deal that became B4A, and reflections on operating a company through restructuring, growth, and global market shifts."
+>
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <a href={`/posts/${post.slug}`} class="post-card">
+          <div class="post-meta">
+            <span class="post-date">{fmt(post.data.date)}</span>
+            {post.data.tag && <span class="post-tag">{post.data.tag}</span>}
+          </div>
+          <h2 class="post-title">{post.data.title}</h2>
+          {post.data.summary && <p class="post-excerpt">{post.data.summary}</p>}
+          <span class="post-cta">Read <span aria-hidden="true">→</span></span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</PageLayout>
+
+<style>
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .post-card {
+    display: block;
+    padding: 32px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--bg-elevated);
+    transition: all 0.3s ease;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .post-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(110, 231, 255, 0.08), transparent 70%);
+    transform: translate(50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .post-card:hover {
+    border-color: var(--border-strong);
+    transform: translateY(-2px);
+  }
+  .post-card:hover::after {
+    opacity: 1;
+  }
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--fg-muted);
+    margin-bottom: 18px;
+    letter-spacing: 0.04em;
+  }
+  .post-tag {
+    padding: 3px 9px;
+    border: 1px solid var(--border-strong);
+    border-radius: 4px;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 10px;
+  }
+  .post-title {
+    font-size: 1.35rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+    margin: 0 0 14px;
+    color: var(--fg);
+  }
+  .post-excerpt {
+    color: var(--fg-muted);
+    font-size: 14.5px;
+    line-height: 1.6;
+    margin: 0 0 20px;
+  }
+  .post-cta {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+  }
+
+  @media (max-width: 720px) {
+    .post-list {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

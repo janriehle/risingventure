@@ -1,0 +1,237 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+---
+
+<PageLayout
+  title="Contact — RisingVenture"
+  description="Get in touch with Rising Venture. Investors, owners, intermediaries, and applicants welcome."
+  kicker="contact"
+  heading="Send us a note."
+  lede="Investors, company owners, M&A intermediaries, and prospective interns — we're listening. The form below routes directly to Jan."
+>
+  <div class="contact-grid">
+    <form class="contact-form" action="https://formspree.io/jan@risingventure.com.br" method="POST">
+      <div class="row">
+        <label class="field">
+          <span class="label">Your name</span>
+          <input type="text" name="name" required />
+        </label>
+        <label class="field">
+          <span class="label">Your email</span>
+          <input type="email" name="_replyto" required />
+        </label>
+      </div>
+
+      <label class="field">
+        <span class="label">You are</span>
+        <select name="role">
+          <optgroup label="Investor">
+            <option>Investor from Brazil</option>
+            <option>Investor from the US</option>
+            <option>Investor from elsewhere</option>
+          </optgroup>
+          <optgroup label="Company">
+            <option>Company Owner</option>
+            <option>Company Executive</option>
+          </optgroup>
+          <optgroup label="Intermediary">
+            <option>M&A Firm</option>
+            <option>Broker</option>
+            <option>Investment Bank</option>
+            <option>Other</option>
+          </optgroup>
+          <optgroup label="Applicant">
+            <option>MBA Intern</option>
+            <option>Other Intern</option>
+            <option>Professional</option>
+          </optgroup>
+        </select>
+      </label>
+
+      <label class="field">
+        <span class="label">Your message</span>
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+
+      <label class="checkbox-row">
+        <input type="checkbox" name="newsletter" value="yes" />
+        <span>Sign me up for the newsletter.</span>
+      </label>
+
+      <button type="submit" class="submit">
+        <span>Send message</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+    </form>
+
+    <aside class="contact-aside">
+      <div class="aside-card">
+        <span class="aside-label">// direct</span>
+        <a href="mailto:jan@risingventure.com.br" class="aside-link">jan@risingventure.com.br</a>
+        <a href="https://www.linkedin.com/in/janriehle" target="_blank" rel="noopener" class="aside-link">LinkedIn — Jan Riehle</a>
+      </div>
+      <div class="aside-card">
+        <span class="aside-label">// based in</span>
+        <p class="aside-text">São Paulo, Brazil</p>
+        <p class="aside-text muted">Operating across Brazil with investors in LATAM, the US, and Europe.</p>
+      </div>
+      <div class="aside-card subtle">
+        <p class="aside-text muted">
+          For company owners and intermediaries: please review our
+          <a href="/what">acquisition criteria</a> before reaching out — it speeds things up considerably.
+        </p>
+      </div>
+    </aside>
+  </div>
+</PageLayout>
+
+<style>
+  .contact-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 36px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--bg-elevated);
+  }
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  .field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--fg-subtle);
+  }
+  input[type='text'],
+  input[type='email'],
+  select,
+  textarea {
+    width: 100%;
+    background: var(--bg);
+    border: 1px solid var(--border-strong);
+    color: var(--fg);
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-family: var(--font-sans);
+    font-size: 14.5px;
+    transition: all 0.2s ease;
+    resize: vertical;
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(110, 231, 255, 0.15);
+  }
+  select {
+    cursor: pointer;
+  }
+  .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13.5px;
+    color: var(--fg-muted);
+    cursor: pointer;
+  }
+  .checkbox-row input {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--accent);
+  }
+  .submit {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 22px;
+    border-radius: 999px;
+    background: var(--fg);
+    color: var(--bg);
+    border: none;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-top: 8px;
+  }
+  .submit:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 40px rgba(231, 234, 240, 0.18);
+  }
+
+  .contact-aside {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .aside-card {
+    padding: 24px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0));
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .aside-label {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+  }
+  .aside-link {
+    font-size: 14.5px;
+    color: var(--fg);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 4px;
+    transition: border-color 0.2s ease;
+  }
+  .aside-link:hover {
+    border-bottom-color: var(--accent);
+  }
+  .aside-text {
+    margin: 0;
+    font-size: 14px;
+    color: var(--fg);
+  }
+  .aside-text.muted {
+    color: var(--fg-muted);
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .aside-text a {
+    color: var(--accent);
+  }
+
+  @media (max-width: 860px) {
+    .contact-grid {
+      grid-template-columns: 1fr;
+    }
+    .row {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
