@@ -1,0 +1,220 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+
+const previousVentures = [
+  { name: 'eOtica', role: 'Co-founder', exit: 'Sold to Essilor (2015)', href: 'http://www.eotica.com.br' },
+  { name: 'Itaro', role: 'Co-founder & CEO', exit: 'Sold to Grupo Cantu / Pneustore (2017)', href: 'http://www.itaro.com.br' },
+  { name: 'B4A (Beauty for All)', role: 'Founder & CEO', exit: 'Operating — formed via Glambox + Men\'s Market (2017)', href: 'http://www.b4a.com.br' },
+  { name: 'OndaLocal', role: 'Co-founder', exit: 'Digital marketing company', href: null },
+];
+
+const studies = [
+  { school: 'INSEAD', degree: 'MBA', year: 'Dec. 2009' },
+  { school: 'University of Hagen, Germany', degree: 'M.Sc. Economics', year: '' },
+  { school: 'University of Hagen, Germany', degree: 'M.Sc. Business Administration', year: '' },
+];
+
+const languages = ['Portuguese', 'French', 'English', 'German'];
+---
+
+<PageLayout
+  title="Principal — RisingVenture"
+  description="Jan Riehle — entrepreneur, principal of Rising Venture, and founder/CEO of B4A."
+  kicker="principal"
+  heading="Jan Riehle — operator, deal-maker, principal."
+  lede="An entrepreneur who has lived and worked in Brazil since 2011, with prior stations in Germany, Switzerland, France, and Singapore. Two exits, one operating company, and an ongoing search."
+>
+  <div class="bio-grid">
+    <div class="bio-photo">
+      <img src="/assets/jan-2026.jpg" alt="Jan Riehle" onerror="this.src='/assets/jan3.jpg'" />
+      <div class="bio-photo-glow"></div>
+    </div>
+
+    <div class="prose">
+      <h2>Background</h2>
+      <p>
+        Jan Riehle is an entrepreneur who has lived and worked in Brazil since early 2011. Before moving to Brazil,
+        he lived and worked in Germany, Switzerland, France, and Singapore. He speaks fluent Portuguese, French,
+        English, and German. He holds an MBA from INSEAD (Dec. 2009), and graduated with an M.Sc. in Economics and
+        an M.Sc. in Business Administration from the University of Hagen in Germany.
+      </p>
+      <p>
+        In Switzerland, he worked for the Swiss mid-market private equity fund
+        <a href="http://www.constellation.ch" target="_blank" rel="noopener">Constellation</a>
+        and for the Swiss M&A boutique
+        <a href="http://www.kurmannpartners.ch" target="_blank" rel="noopener">Kurmann & Partners</a>. In Brazil, he
+        co-founded the e-commerce companies
+        <a href="http://www.eotica.com.br" target="_blank" rel="noopener">eOtica</a>, Juv,
+        <a href="http://www.itaro.com.br" target="_blank" rel="noopener">Itaro</a>, as well as the digital marketing
+        company OndaLocal. He also invested in several startups between 2012 and 2015.
+      </p>
+      <p>
+        Jan can reflect upon two exits — having sold Itaro to the local distributor Grupo Cantu
+        (<a href="http://www.pneustore.com.br" target="_blank" rel="noopener">Pneustore</a>) in 2017, and eOtica to the
+        French holding Essilor in 2015. Between 2013 and the exit, he served as Itaro's CEO.
+      </p>
+
+      <h2>History of Rising Venture</h2>
+      <p>
+        Rising Venture, before its re-launch as a search fund in 2017, was used as the investment vehicle for the
+        principal's investment and entrepreneurial activities in Brasil. Apart from the exits of Itaro and eOtica,
+        Rising Venture is still holding various startup participations, of which three underwent promising
+        developments and managed to thrive — one even to realize an IPO at the B3 in 2021.
+      </p>
+    </div>
+  </div>
+
+  <section class="meta-grid">
+    <div class="meta-card">
+      <span class="meta-label">// ventures</span>
+      <ul class="meta-list">
+        {previousVentures.map((v) => (
+          <li>
+            <div class="meta-name">
+              {v.href ? <a href={v.href} target="_blank" rel="noopener">{v.name}</a> : <span>{v.name}</span>}
+            </div>
+            <div class="meta-role">{v.role}</div>
+            <div class="meta-detail">{v.exit}</div>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="meta-card">
+      <span class="meta-label">// education</span>
+      <ul class="meta-list">
+        {studies.map((s) => (
+          <li>
+            <div class="meta-name">{s.school}</div>
+            <div class="meta-role">{s.degree}</div>
+            {s.year && <div class="meta-detail">{s.year}</div>}
+          </li>
+        ))}
+      </ul>
+      <span class="meta-label" style="margin-top: 32px;">// languages</span>
+      <div class="lang-row">
+        {languages.map((l) => <span class="lang-chip">{l}</span>)}
+      </div>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .bio-grid {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+  .bio-photo {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--border-strong);
+    aspect-ratio: 3 / 4;
+  }
+  .bio-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: saturate(0.95);
+  }
+  .bio-photo-glow {
+    position: absolute;
+    inset: -20%;
+    background: radial-gradient(circle, rgba(110, 231, 255, 0.15), transparent 70%);
+    z-index: -1;
+    filter: blur(40px);
+  }
+
+  .meta-grid {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .meta-card {
+    padding: 32px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0));
+  }
+  .meta-label {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 24px;
+  }
+  .meta-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .meta-list li {
+    padding-bottom: 22px;
+    border-bottom: 1px solid var(--border);
+  }
+  .meta-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .meta-name {
+    font-size: 15.5px;
+    font-weight: 500;
+    color: var(--fg);
+    margin-bottom: 4px;
+  }
+  .meta-name a {
+    color: inherit;
+    border-bottom: 1px solid var(--border-strong);
+    transition: border-color 0.2s ease;
+  }
+  .meta-name a:hover {
+    border-bottom-color: var(--accent);
+  }
+  .meta-role {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--fg-subtle);
+    margin-bottom: 6px;
+  }
+  .meta-detail {
+    font-size: 13.5px;
+    color: var(--fg-muted);
+  }
+  .lang-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .lang-chip {
+    padding: 5px 12px;
+    border: 1px solid var(--border-strong);
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--fg-muted);
+    letter-spacing: 0.04em;
+  }
+
+  @media (max-width: 860px) {
+    .bio-grid {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
+    .bio-photo {
+      max-width: 320px;
+    }
+    .meta-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

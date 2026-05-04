@@ -1,0 +1,285 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+
+const stages = [
+  { n: '01', label: 'Raise', activity: 'Raise the Search Fund', duration: '2 – 4 months' },
+  { n: '02', label: 'Source', activity: 'Source & Evaluate Opportunities', duration: '1 – 24 months' },
+  { n: '03', label: 'Close', activity: 'Finance & Close a Transaction', duration: '2 – 6 months' },
+  { n: '04', label: 'Operate', activity: 'Operate the Business', duration: '4 – 8 years' },
+  { n: '05', label: 'Exit', activity: 'Exit the Business', duration: '4 – 6 months' },
+];
+
+const criteria = [
+  'A niche service business',
+  'The company is in a management transition or has an absentee owner — current owner(s) motivated to sell for personal reasons (retirement) or to do something else',
+  'A privately held company based in Brazil',
+  'At least 3 years of profitable operations',
+  'Revenues between R$ 30M and R$ 100M (US$ 8M – US$ 30M) and EBITDA margin of at least 10%',
+  'Operating in a growing market',
+  'A fragmented industry with no strong consolidator yet emerging',
+];
+
+const ownerOffers = [
+  'Immediate liquidity through our network of investors',
+  'Professional management to take care of business continuity',
+  'A way to transition out of the business while keeping your reputation with customers, suppliers, etc.',
+  'A growth strategy that lets your business thrive over the years following the acquisition',
+  'Flexibility on the deal-side — the current owner can partially remain in the equity if of interest',
+];
+
+const investorOffers = [
+  'A successful track record of entrepreneurial endeavors (see the history of Rising Venture and the principal\'s profile)',
+  'Access to an asset class with outstanding performance',
+  'The ability to take part in an exciting entrepreneurial endeavor — including the decision on which company to acquire — and to support the entrepreneur with pre- and post-acquisition advice',
+  'Access to the biggest economy in LATAM',
+];
+---
+
+<PageLayout
+  title="Thesis — RisingVenture"
+  description="The search fund concept, our acquisition criteria, and what we offer to companies and investors."
+  kicker="thesis"
+  heading="One company. Acquired with conviction. Compounded for decades."
+  lede="A search fund is an investment vehicle in which investors financially support a manager's effort to locate, acquire, and operate an existing private company. Below: how it works, what we look for, and what we offer."
+>
+  <div class="prose">
+    <h2>The search fund concept</h2>
+    <p>
+      Conceived in 1984, the search fund is an investment vehicle in which investors financially support a manager's
+      efforts to locate, acquire, and manage an existing private company. Over 250 search funds have been raised in
+      the US to date, predominantly by recent graduates of Harvard Business School and Stanford Graduate School of
+      Business.
+    </p>
+    <p>
+      In a search fund model, capital is raised in two distinct rounds. In the first round, funds are invested into
+      the search fund entity (e.g., Rising Venture) to cover operating expenses and allow the principal to draw a
+      modest salary while conducting a professional search to acquire an existing private company. In return,
+      search-fund investors obtain the right, but not the obligation, to invest in the second round — the acquisition
+      round. All funds invested in the first round are automatically converted to securities in the acquired company
+      and stepped up by 50%, structured as a combination of equity and subordinated debt (i.e., for every $1.00
+      invested in Rising Venture the investor receives $1.50 of securities in the acquired company).
+    </p>
+    <p>
+      The 2024 Stanford GSB Search Fund Study — covering 681 first-time search funds in the US and Canada formed
+      since 1984 — shows an aggregate IRR of <strong>35.1%</strong> and a <strong>4.5x ROI</strong> as of December
+      31, 2023. For search funds that have already exited, IRR rises to <strong>42.9%</strong>.
+    </p>
+    <p>
+      The asset class is also expanding rapidly outside the US: IESE's 2024 study now covers 320 international
+      search funds across 40 countries, and 2023 was a record year for new international fund formation. International
+      aggregate IRR currently sits at 18.1% — but this figure is mechanically depressed by cohort immaturity:
+      <strong>62% of all international acquisitions have happened since 2020</strong> and remain early in the typical
+      four-to-eight-year holding period, ahead of the value realisation that drives search-fund returns. The same
+      pattern was visible in US data fifteen years ago, before exits accumulated.
+    </p>
+
+    <h2>Search strategy</h2>
+    <p>At a minimum, target companies must possess the following characteristics:</p>
+    <ul>
+      {criteria.map((c) => <li>{c}</li>)}
+    </ul>
+    <p>
+      Each company that fulfills the above criteria is evaluated against a specific set of criteria before a decision
+      on the follow-on steps is made. Intermediaries and company owners can <a href="/contact">reach out here</a>.
+    </p>
+
+    <h2>What we offer to an acquired business</h2>
+    <ul>
+      {ownerOffers.map((o) => <li>{o}</li>)}
+    </ul>
+
+    <h2>What we offer to investors</h2>
+    <ul>
+      {investorOffers.map((o) => <li>{o}</li>)}
+    </ul>
+
+    <h2>Investment highlights</h2>
+    <p>Rising Venture represents a compelling investment opportunity for the following reasons.</p>
+
+    <h3>An extremely well-performing, proven asset class</h3>
+    <p>
+      <strong><em>Proven concept and tested investment vehicle.</em></strong> Search funds have existed since 1984
+      and have been used by over 680 entrepreneur teams from top business schools to support efforts to locate,
+      acquire, and manage an existing private company. The 2024 Stanford GSB Search Fund Study reports an aggregate
+      IRR of <strong>35.1%</strong> (4.5x ROI) across the asset class, rising to <strong>42.9% IRR</strong> for funds
+      that have already exited.
+    </p>
+    <p>
+      <strong><em>SMBs are an underserved acquisition niche.</em></strong> Virtually all closely-held and family-owned
+      businesses will lose their primary owner to death or retirement. Opportunities to acquire lower middle-market
+      businesses are always greater than demand: these businesses typically fall below the parameters of most buyout
+      firms and are often too large for private buyers. Direct sourcing of these opportunities requires a significant
+      time investment that is often not feasible for private equity firms with limited professional staff. As a
+      result, acquisition multiples in the lower middle market are lower than those found upmarket. This scenario,
+      confirmed by the financial-return track record generated by search funds, has led to a strong increase in
+      search-fund activity over the last 25 years.
+    </p>
+
+    <h3>Local market opportunity</h3>
+    <p>
+      <strong><em>The search fund model is still new in Brazil and will work great here.</em></strong> Brazil — the
+      world's 6th largest economy — has a similar structure in terms of company sizes as the US economy. Similar to
+      the US, there are private equity funds operating which acquire businesses with revenue above R$ 150M (US$ 50M),
+      but there are no institutional financial acquirers for smaller businesses. For individuals, financing an
+      acquisition is even harder than in the US, as access to bank debt and investor capital is more difficult than
+      in the US or Europe, and there is no culture of pursuing this kind of entrepreneurial activity.
+    </p>
+    <p>
+      <strong>The opportunity to buy a business with revenues below R$ 100M and develop it over 4 to 10 years into a
+      business suitable for a private-equity acquirer is therefore an almost completely untapped opportunity in
+      Brazil.</strong>
+    </p>
+    <p>
+      <strong><em>Opportunity for value creation.</em></strong> The principal's experience investing in and building
+      companies in Brazil has convinced him of the opportunity to create value through the purchase and management of
+      a small business. As a first step, the principal anticipates assembling an experienced board of directors and
+      management team who embrace traditional values of discipline, hard work, organisation, teamwork, humbleness and
+      integrity. Second, the principal and management team will work to add rigor to existing business processes and
+      upgrade especially the digital information systems at the acquired company to serve as a foundation for future
+      growth. Finally, the team will look to prudently pursue underexploited growth initiatives organically as well
+      as potentially through select tuck-in acquisitions.
+    </p>
+
+    <h3>Principal-related highlights</h3>
+    <p>
+      <strong><em>Relevant personal experience.</em></strong> Jan Riehle combines deal experience in Brazil and Europe
+      with five years of top-level management experience as CEO of a leading e-commerce vertical in Brazil. His
+      expertise in leveraging technology to digitize business processes will allow Rising Venture to add a
+      competitive edge to any acquisition target.
+    </p>
+    <p>
+      <strong><em>Proven fundraising, team-building, and selling experience.</em></strong> Jan Riehle has shown a
+      strong track record of carrying through what he started. As CEO of Itaro, he grew the company to a R$ 25M
+      business, provided work to 50 employees, and survived and thrived against all odds of the local economy
+      through a deep financial crisis. He sold the company to the leading Brazilian tire distributor, Grupo Cantu.
+      Itaro is today Brazil's most successful e-commerce in the tire vertical.
+    </p>
+  </div>
+
+  <section class="stages">
+    <span class="section-kicker">// stages</span>
+    <h2 class="section-h2">Five stages of a search fund</h2>
+    <p class="section-sub">The model is executed across five distinct stages, the entirety of which can last anywhere from four to ten years.</p>
+    <ol class="stage-list">
+      {stages.map((s) => (
+        <li>
+          <div class="stage-num">{s.n}</div>
+          <div class="stage-content">
+            <div class="stage-label">{s.label}</div>
+            <div class="stage-activity">{s.activity}</div>
+          </div>
+          <div class="stage-duration">{s.duration}</div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <div class="prose end-note">
+    <p>For further information on the asset class of search funds, see <a href="/posts">our writing</a>.</p>
+  </div>
+</PageLayout>
+
+<style>
+  .stages {
+    margin: 100px 0 60px;
+    padding: 60px 36px;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0));
+    position: relative;
+    overflow: hidden;
+  }
+  .stages::before {
+    content: '';
+    position: absolute;
+    top: -120px;
+    right: -120px;
+    width: 360px;
+    height: 360px;
+    background: radial-gradient(circle, rgba(167, 139, 250, 0.18), transparent 60%);
+    filter: blur(40px);
+    pointer-events: none;
+  }
+  .section-kicker {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 14px;
+    position: relative;
+  }
+  .section-h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+    line-height: 1.2;
+  }
+  .section-sub {
+    color: var(--fg-muted);
+    margin: 0 0 36px;
+    max-width: 60ch;
+    font-size: 15.5px;
+  }
+  .stage-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border);
+  }
+  .stage-list li {
+    display: grid;
+    grid-template-columns: 60px 1fr auto;
+    align-items: center;
+    gap: 24px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--border);
+    transition: background 0.2s ease;
+  }
+  .stage-list li:hover {
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .stage-num {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent);
+  }
+  .stage-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .stage-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fg-subtle);
+  }
+  .stage-activity {
+    font-size: 16px;
+    color: var(--fg);
+  }
+  .stage-duration {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--fg-muted);
+    white-space: nowrap;
+  }
+  .end-note {
+    margin-top: 60px;
+  }
+
+  @media (max-width: 720px) {
+    .stage-list li {
+      grid-template-columns: 40px 1fr;
+    }
+    .stage-duration {
+      grid-column: 2;
+      font-size: 12px;
+    }
+  }
+</style>
