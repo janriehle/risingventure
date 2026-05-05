@@ -56,6 +56,40 @@ const sequence = [
   },
 ];
 
+const growthLevers = [
+  {
+    title: 'Outbound at scale',
+    body:
+      'AI-driven prospecting and qualification — 5–10× the lead volume at constant headcount, with better targeting because models read context faster than humans triage it.',
+  },
+  {
+    title: 'Personalised conversion',
+    body:
+      'Tailored outreach, dynamic pricing, and AI-assisted proposals lift close rates without adding sales bodies. Each rep handles a larger book at a higher conversion rate.',
+  },
+  {
+    title: 'Faster onboarding',
+    body:
+      'Automated KYC, contract drafting, and account setup compress time-to-revenue from weeks to days. Cash conversion accelerates and customers reach value faster.',
+  },
+  {
+    title: 'Retention and expansion',
+    body:
+      'AI-driven customer success spots churn signals early and surfaces upsell triggers in usage data. Net revenue retention climbs without a proportional CS headcount.',
+  },
+  {
+    title: 'Adjacent segments',
+    body:
+      'The same AI infrastructure that automates the core service can be repointed at adjacent customer segments or geographies — entry costs that used to require a new ops team are now near-marginal.',
+  },
+];
+
+const arc = [
+  { label: 'Revenue', from: '100', to: '150', mult: '1.5×' },
+  { label: 'EBITDA margin', from: '15%', to: '45%', mult: '3×' },
+  { label: 'EBITDA', from: '15', to: '67.5', mult: '4.5×' },
+];
+
 const whyNow = [
   {
     n: '01',
@@ -203,6 +237,123 @@ const whySearchFund = [
         expand margin via AI deployment, exit at a multiple that's both <em>higher</em> (because
         the business is now scarcer and more profitable) and applied to a <em>larger</em> EBITDA.
         The compounding is multiplicative, not additive.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============== SALES AUTOMATION & SCALE ============== -->
+  <section class="section">
+    <header class="section-head">
+      <span class="section-kicker">// then growth</span>
+      <h2>Sales automation and scale.</h2>
+      <p class="section-sub">
+        Cost compression is the first move because it's the most certain — operating leverage
+        on a fixed cost base. Once that lands, the same AI capability that replaced repetitive
+        cognitive work in delivery can <em>generate</em> revenue against a now-leaner cost base.
+        Growth, with the unit economics already fixed.
+      </p>
+    </header>
+
+    <div class="growth-grid">
+      {growthLevers.map((g, i) => (
+        <article class="growth-card">
+          <span class="growth-num">0{i + 1}</span>
+          <h3>{g.title}</h3>
+          <p>{g.body}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- ============== MATH PHASE 2 ============== -->
+  <section class="section math-section phase-two">
+    <header class="section-head">
+      <span class="section-kicker">// the math, phase two</span>
+      <h2>Then the top line moves.</h2>
+      <p class="section-sub">
+        Picking up where the first table left off — same business, now with the cost base
+        already restructured. Sales automation drives 30–60% revenue growth over the same
+        18–36 month operating window. The cost lines barely move, so almost all of the
+        incremental revenue drops to EBITDA.
+      </p>
+    </header>
+
+    <div class="math">
+      <div class="math-col before">
+        <div class="math-tag">After cost compression</div>
+        <table>
+          <tbody>
+            <tr><td>Revenue</td><td class="num">100</td></tr>
+            <tr><td>Cost of services <span class="muted">(variable)</span></td><td class="num">(42)</td></tr>
+            <tr class="emphasis"><td><strong>Gross margin</strong></td><td class="num"><strong>58%</strong></td></tr>
+            <tr><td>SG&amp;A <span class="muted">(fixed)</span></td><td class="num">(18)</td></tr>
+            <tr class="total"><td><strong>EBITDA</strong></td><td class="num"><strong>40 <span class="muted">(40%)</span></strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="math-arrow">→</div>
+
+      <div class="math-col after">
+        <div class="math-tag">After growth at scale</div>
+        <table>
+          <tbody>
+            <tr><td>Revenue</td><td class="num gradient-text"><strong>150</strong></td></tr>
+            <tr><td>Cost of services <span class="muted">(variable)</span></td><td class="num">(60)</td></tr>
+            <tr class="emphasis"><td><strong>Gross margin</strong></td><td class="num gradient-text"><strong>60%</strong></td></tr>
+            <tr><td>SG&amp;A <span class="muted">(fixed)</span></td><td class="num">(22)</td></tr>
+            <tr class="total"><td><strong>EBITDA</strong></td><td class="num gradient-text"><strong>68 <span class="muted">(45%)</span></strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p class="math-caveat">
+      Variable cost stays at ~40% of revenue as volume grows — the AI deployment scales
+      sub-linearly with throughput. SG&amp;A creeps up modestly to support a 50% larger book.
+      Each incremental dollar of revenue carries a marginal contribution near 60%, so the
+      P&amp;L compounds quickly.
+    </p>
+  </section>
+
+  <!-- ============== THE FULL TRANSFORMATION ============== -->
+  <section class="section arc-section">
+    <header class="section-head">
+      <span class="section-kicker">// end to end</span>
+      <h2>The full transformation.</h2>
+      <p class="section-sub">
+        Same business, same customers, same starting point. Across an 18–36 month operating
+        phase, the two AI wedges deliver the cost-compression first, then the growth — and
+        they compound.
+      </p>
+    </header>
+
+    <ol class="arc-list">
+      {arc.map((a) => (
+        <li>
+          <div class="arc-label">{a.label}</div>
+          <div class="arc-row">
+            <span class="arc-from">{a.from}</span>
+            <span class="arc-arrow">→</span>
+            <span class="arc-to gradient-text">{a.to}</span>
+            <span class="arc-mult">{a.mult}</span>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <div class="prose arc-conclusion">
+      <p>
+        <strong>4.5× EBITDA from operating improvements alone.</strong> Then on exit, a business
+        with this profile — high margin, growing 30–50%, AI-native operating moat — typically
+        commands a multiple roughly <strong>2× of what the same business sold for at entry</strong>.
+        Acquired at 5× EBITDA, exits at 9–11×.
+      </p>
+      <p>
+        Multiplied through: <strong>4.5× EBITDA expansion × ~2× multiple expansion ≈ 9× total
+        enterprise-value creation</strong> over the operating phase. That's the search-fund
+        return profile in numerical form, with AI as the operating wedge that makes top-quartile
+        outcomes more reachable than they used to be.
       </p>
     </div>
   </section>
@@ -530,6 +681,159 @@ const whySearchFund = [
     font-weight: 500;
   }
 
+  /* ============== GROWTH LEVERS ============== */
+  .growth-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+  .growth-grid > article:nth-child(4),
+  .growth-grid > article:nth-child(5) {
+    grid-column: span 1;
+  }
+  .growth-card {
+    padding: 26px 24px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0));
+    transition: all 0.3s ease;
+  }
+  .growth-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(167, 139, 250, 0.3);
+  }
+  .growth-num {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--accent-2);
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 12px;
+  }
+  .growth-card h3 {
+    font-size: 1.05rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 0 0 12px;
+    line-height: 1.3;
+  }
+  .growth-card p {
+    color: var(--fg-muted);
+    font-size: 13.5px;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ============== MATH PHASE TWO ============== */
+  .math-section.phase-two::before {
+    background: radial-gradient(circle, rgba(240, 171, 252, 0.1), transparent 60%);
+  }
+  .math-section.phase-two .math-col.after {
+    border-color: rgba(240, 171, 252, 0.4);
+    box-shadow: 0 0 60px rgba(240, 171, 252, 0.1);
+  }
+  .math-section.phase-two .math-col.after .math-tag {
+    color: var(--accent-3);
+  }
+  .math-section.phase-two .math-arrow {
+    color: var(--accent-2);
+  }
+
+  /* ============== ARC (full transformation) ============== */
+  .arc-section {
+    padding: 50px 40px;
+    border: 1px solid var(--border-strong);
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(110, 231, 255, 0.04) 0%, rgba(167, 139, 250, 0.06) 50%, rgba(240, 171, 252, 0.04) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  .arc-section::before {
+    content: '';
+    position: absolute;
+    top: -150px;
+    right: -150px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(240, 171, 252, 0.1), transparent 60%);
+    filter: blur(40px);
+    pointer-events: none;
+  }
+  .arc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border);
+  }
+  .arc-list li {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 32px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: center;
+  }
+  .arc-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fg-subtle);
+  }
+  .arc-row {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+  .arc-from {
+    font-size: 1.5rem;
+    color: var(--fg-muted);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    font-variant-numeric: tabular-nums;
+  }
+  .arc-arrow {
+    color: var(--fg-subtle);
+    font-family: var(--font-mono);
+    font-size: 1.2rem;
+  }
+  .arc-to {
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+  .arc-mult {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--fg-muted);
+    margin-left: auto;
+    padding: 5px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    letter-spacing: 0.04em;
+  }
+  .arc-conclusion {
+    max-width: none;
+    margin: 0;
+  }
+  .arc-conclusion p {
+    color: var(--fg);
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  .arc-conclusion p:last-child {
+    margin-bottom: 0;
+  }
+  .arc-conclusion strong {
+    color: var(--fg);
+    font-weight: 500;
+  }
+
   /* ============== TRIO (why now) ============== */
   .trio {
     display: grid;
@@ -724,8 +1028,22 @@ const whySearchFund = [
   /* ============== RESPONSIVE ============== */
   @media (max-width: 860px) {
     .wedges,
-    .trio {
+    .trio,
+    .growth-grid {
       grid-template-columns: 1fr;
+    }
+    .arc-section {
+      padding: 32px 24px;
+    }
+    .arc-list li {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+    .arc-mult {
+      margin-left: 0;
+    }
+    .arc-to {
+      font-size: 1.8rem;
     }
     .math {
       grid-template-columns: 1fr;
