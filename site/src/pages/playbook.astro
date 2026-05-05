@@ -31,28 +31,53 @@ const wedges = [
 
 const sequence = [
   {
-    window: 'First 90 days',
-    focus: 'Measure',
+    window: '0 – 6 months',
+    phase: '',
+    focus: 'Diligence & baseline',
     body:
-      'Baseline unit economics by function. Identify the highest-volume, lowest-judgement repetitive cognitive work. Pick the two or three deployments with the steepest payoff curves.',
+      'Diligence, measurement, planning, first key hires. Establish unit-economics baselines by function and identify the highest-volume, lowest-judgement repetitive cognitive work. No deployment yet — just the picture clear enough to commit to specific ROI targets.',
   },
   {
-    window: 'Months 3 – 9',
+    window: '6 – 18 months',
+    phase: 'Phase 1',
     focus: 'Service delivery',
     body:
-      'Deploy AI on the top variable-cost functions — typically customer service, document handling, sales prospecting. Compress cost of services first; gross margin moves before SG&A.',
+      'Deploy AI on the top variable-cost functions — typically customer service, document handling, sales prospecting. Gross margin starts moving as cost of services compresses against the same revenue.',
   },
   {
-    window: 'Months 9 – 18',
+    window: '12 – 24 months',
+    phase: 'Phase 1',
     focus: 'Back office',
     body:
-      'Finance, HR, compliance, and middle management automation. SG&A starts compressing as the back office scales without proportional headcount.',
+      'Finance, HR, compliance, and middle-management automation in parallel. SG&A starts compressing as the back office scales without proportional headcount.',
   },
   {
-    window: 'Months 18 +',
-    focus: 'Proprietary edge',
+    window: '18 – 30 months',
+    phase: 'Phase 1',
+    focus: 'Cost-out lands',
     body:
-      'Where applicable, build proprietary AI products and data network effects — turning the operating advantage into a durable moat that justifies a higher exit multiple.',
+      'Cost compression substantially complete. EBITDA in the 35 – 45% zone. The business is now a different financial entity than the one we acquired.',
+  },
+  {
+    window: '24 – 48 months',
+    phase: 'Phase 2',
+    focus: 'Sales automation',
+    body:
+      'AI-driven outbound, personalised conversion, retention and expansion go live. Revenue starts compounding against the now-leaner cost base.',
+  },
+  {
+    window: '36 – 60 months',
+    phase: 'Phase 2',
+    focus: 'Compounding',
+    body:
+      'Revenue and retained margin compound. Data network effects — where applicable — harden the operating moat. The multiple-expansion narrative builds.',
+  },
+  {
+    window: '60 + months',
+    phase: '',
+    focus: 'Exit prep',
+    body:
+      'Harvest. The arithmetic of the operating phase shows up in the exit multiple — high margin, high growth, AI-native moat command a re-rating versus what the same business would have sold for at entry.',
   },
 ];
 
@@ -86,8 +111,8 @@ const growthLevers = [
 
 const arc = [
   { label: 'Revenue', from: '100', to: '150', mult: '1.5×' },
-  { label: 'EBITDA margin', from: '15%', to: '45%', mult: '3×' },
-  { label: 'EBITDA', from: '15', to: '67.5', mult: '4.5×' },
+  { label: 'EBITDA margin', from: '15%', to: '50%', mult: '3.3×' },
+  { label: 'EBITDA', from: '15', to: '75', mult: '5×' },
 ];
 
 const whyNow = [
@@ -273,7 +298,7 @@ const whySearchFund = [
       <p class="section-sub">
         Picking up where the first table left off — same business, now with the cost base
         already restructured. Sales automation drives 30–60% revenue growth over the same
-        18–36 month operating window. The cost lines barely move, so almost all of the
+        3 – 5 year operating window. The cost lines barely move, so almost all of the
         incremental revenue drops to EBITDA.
       </p>
     </header>
@@ -299,20 +324,21 @@ const whySearchFund = [
         <table>
           <tbody>
             <tr><td>Revenue</td><td class="num gradient-text"><strong>150</strong></td></tr>
-            <tr><td>Cost of services <span class="muted">(variable)</span></td><td class="num">(60)</td></tr>
-            <tr class="emphasis"><td><strong>Gross margin</strong></td><td class="num gradient-text"><strong>60%</strong></td></tr>
-            <tr><td>SG&amp;A <span class="muted">(fixed)</span></td><td class="num">(22)</td></tr>
-            <tr class="total"><td><strong>EBITDA</strong></td><td class="num gradient-text"><strong>68 <span class="muted">(45%)</span></strong></td></tr>
+            <tr><td>Cost of services <span class="muted">(variable)</span></td><td class="num">(57)</td></tr>
+            <tr class="emphasis"><td><strong>Gross margin</strong></td><td class="num gradient-text"><strong>62%</strong></td></tr>
+            <tr><td>SG&amp;A <span class="muted">(fixed)</span></td><td class="num">(18)</td></tr>
+            <tr class="total"><td><strong>EBITDA</strong></td><td class="num gradient-text"><strong>75 <span class="muted">(50%)</span></strong></td></tr>
           </tbody>
         </table>
       </div>
     </div>
 
     <p class="math-caveat">
-      Variable cost stays at ~40% of revenue as volume grows — the AI deployment scales
-      sub-linearly with throughput. SG&amp;A creeps up modestly to support a 50% larger book.
-      Each incremental dollar of revenue carries a marginal contribution near 60%, so the
-      P&amp;L compounds quickly.
+      Variable cost rate compresses one notch further — from 42% to ~38% of revenue — as scale
+      unlocks additional efficiency on top of the AI deployment. SG&amp;A holds flat from
+      Phase 1 in absolute terms: the back-office automation absorbs a 50% larger book at the
+      same fixed-cost dollars. Each incremental dollar of revenue carries a marginal
+      contribution above 60%, so the P&amp;L compounds quickly.
     </p>
   </section>
 
@@ -322,9 +348,9 @@ const whySearchFund = [
       <span class="section-kicker">// end to end</span>
       <h2>The full transformation.</h2>
       <p class="section-sub">
-        Same business, same customers, same starting point. Across an 18–36 month operating
-        phase, the two AI wedges deliver the cost-compression first, then the growth — and
-        they compound.
+        Same business, same customers, same starting point. Across a typical 3 – 5 year
+        operating phase, the two AI wedges deliver the cost-compression first, then the
+        growth — and they compound.
       </p>
     </header>
 
@@ -344,13 +370,13 @@ const whySearchFund = [
 
     <div class="prose arc-conclusion">
       <p>
-        <strong>4.5× EBITDA from operating improvements alone.</strong> Then on exit, a business
+        <strong>5× EBITDA from operating improvements alone.</strong> Then on exit, a business
         with this profile — high margin, growing 30–50%, AI-native operating moat — typically
         commands a multiple roughly <strong>2× of what the same business sold for at entry</strong>.
-        Acquired at 5× EBITDA, exits at 9–11×.
+        Acquired at 5× EBITDA, exits at 10×.
       </p>
       <p>
-        Multiplied through: <strong>4.5× EBITDA expansion × ~2× multiple expansion ≈ 9× total
+        Multiplied through: <strong>5× EBITDA expansion × 2× multiple expansion = 10× total
         enterprise-value creation</strong> over the operating phase. That's the search-fund
         return profile in numerical form, with AI as the operating wedge that makes top-quartile
         outcomes more reachable than they used to be.
@@ -417,10 +443,11 @@ const whySearchFund = [
     </header>
 
     <ol class="sequence">
-      {sequence.map((s, i) => (
-        <li>
+      {sequence.map((s) => (
+        <li class:list={['seq-row', s.phase ? `phase-${s.phase.toLowerCase().replace(' ', '-')}` : '']}>
           <div class="seq-time">
             <span class="seq-window">{s.window}</span>
+            {s.phase && <span class="seq-phase">{s.phase}</span>}
             <span class="seq-focus">{s.focus}</span>
           </div>
           <div class="seq-body">{s.body}</div>
@@ -938,6 +965,23 @@ const whySearchFund = [
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--fg-subtle);
+  }
+  .seq-phase {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    align-self: flex-start;
+    padding: 2px 8px;
+    border: 1px solid rgba(110, 231, 255, 0.25);
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .seq-row.phase-phase-2 .seq-phase {
+    color: var(--accent-2);
+    border-color: rgba(167, 139, 250, 0.25);
   }
   .seq-focus {
     font-size: 1.1rem;
