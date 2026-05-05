@@ -1,0 +1,752 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+
+const wedges = [
+  {
+    label: 'Variable cost',
+    title: 'Cost of services delivered',
+    items: [
+      'Customer service triage and resolution',
+      'Document handling — contracts, invoices, claims, intake',
+      'Scheduling, dispatch, routing optimization',
+      'Knowledge synthesis — research, briefing, summarization',
+      'Quality review and compliance checking',
+      'Sales prospecting and lead qualification',
+      'Translation, transcription, content generation',
+    ],
+  },
+  {
+    label: 'Fixed cost',
+    title: 'SG&A and overhead',
+    items: [
+      'Finance — AP/AR automation, reconciliation, reporting',
+      'HR — onboarding, scheduling, policy answers',
+      'Legal & compliance — contract review, policy tracking',
+      'Marketing — content production, segmentation, personalization',
+      'Engineering / ops — monitoring, runbook automation',
+      'Middle management — AI as the layer between line workers and senior managers',
+    ],
+  },
+];
+
+const sequence = [
+  {
+    window: 'First 90 days',
+    focus: 'Measure',
+    body:
+      'Baseline unit economics by function. Identify the highest-volume, lowest-judgement repetitive cognitive work. Pick the two or three deployments with the steepest payoff curves.',
+  },
+  {
+    window: 'Months 3 – 9',
+    focus: 'Service delivery',
+    body:
+      'Deploy AI on the top variable-cost functions — typically customer service, document handling, sales prospecting. Compress cost of services first; gross margin moves before SG&A.',
+  },
+  {
+    window: 'Months 9 – 18',
+    focus: 'Back office',
+    body:
+      'Finance, HR, compliance, and middle management automation. SG&A starts compressing as the back office scales without proportional headcount.',
+  },
+  {
+    window: 'Months 18 +',
+    focus: 'Proprietary edge',
+    body:
+      'Where applicable, build proprietary AI products and data network effects — turning the operating advantage into a durable moat that justifies a higher exit multiple.',
+  },
+];
+
+const whyNow = [
+  {
+    n: '01',
+    title: 'Capability',
+    body:
+      'Frontier models can now do real cognitive work — reading, writing, reasoning, judgement — at near-human quality on domain-specific tasks. The deployable surface in a service business is no longer limited to chatbots.',
+  },
+  {
+    n: '02',
+    title: 'Cost',
+    body:
+      'Inference costs have dropped roughly 10× year over year and continue to fall. Always-on deployment across the workforce — not just pilots — is now economically viable for a sub-$100M-revenue business.',
+  },
+  {
+    n: '03',
+    title: 'Access',
+    body:
+      'APIs, agents, and fine-tuning are accessible without an in-house ML team. A capable operator-CEO with a small technical partner can deploy what would have required a 20-person research org five years ago.',
+  },
+];
+
+const whySearchFund = [
+  {
+    title: 'Full operating control',
+    body:
+      'Unlike a minority investor, a search fund principal becomes CEO. AI deployment is directed, not begged for — and it touches every function on the same operating cadence.',
+  },
+  {
+    title: 'Patient horizon',
+    body:
+      'AI in operations takes 12 – 24 months to compound into EBITDA. A four-to-ten-year hold lets the value land first in margin, then in exit multiple.',
+  },
+  {
+    title: 'Sub-scale targets',
+    body:
+      'A $5 – 30M EBITDA business has more white space for AI gains than a $500M one — fewer legacy systems to integrate around, simpler decision rights, faster deployment cycles.',
+  },
+];
+---
+
+<PageLayout
+  title="Playbook — RisingVenture"
+  description="The AI operating playbook for service businesses — how variable-cost and fixed-cost compression compound into margin and exit multiple."
+  kicker="playbook"
+  heading="Operating with AI."
+  lede="A search fund's edge isn't capital — it's operating attention. In service businesses, AI now compresses variable cost in delivery and fixed cost in overhead at the same time. Both lines move, and they multiply."
+>
+  <!-- ============== UNIT ECONOMICS ============== -->
+  <section class="section first">
+    <div class="prose">
+      <h2>The unit economics of a service business</h2>
+      <p>
+        A typical mid-market service company runs at gross margins of 30–50% and EBITDA margins
+        of 5–20%. Most of the P&amp;L is labor — the people doing the work, plus the people
+        managing the people doing the work. Capital intensity is low; talent intensity is
+        everything.
+      </p>
+      <p>
+        That's the structure AI was built to bend.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============== TWO WEDGES ============== -->
+  <section class="section">
+    <header class="section-head">
+      <span class="section-kicker">// two wedges</span>
+      <h2>AI compresses both lines, simultaneously.</h2>
+      <p class="section-sub">
+        The point isn't replacing roles wholesale. It's that each role's <em>output ceiling</em>
+        moves up by 2 – 5×, so revenue grows faster than headcount.
+      </p>
+    </header>
+
+    <div class="wedges">
+      {wedges.map((w, i) => (
+        <article class="wedge">
+          <div class="wedge-header">
+            <span class="wedge-num">0{i + 1}</span>
+            <span class="wedge-label">{w.label}</span>
+          </div>
+          <h3>{w.title}</h3>
+          <ul>
+            {w.items.map((item) => <li>{item}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- ============== MATH ============== -->
+  <section class="section math-section">
+    <header class="section-head">
+      <span class="section-kicker">// the math</span>
+      <h2>What it does to the P&amp;L.</h2>
+      <p class="section-sub">
+        Take a typical mid-market service business. Same revenue, same customers, same competitive
+        environment. Apply the two wedges.
+      </p>
+    </header>
+
+    <div class="math">
+      <div class="math-col before">
+        <div class="math-tag">Before AI</div>
+        <table>
+          <tbody>
+            <tr><td>Revenue</td><td class="num">100</td></tr>
+            <tr><td>Cost of services <span class="muted">(variable)</span></td><td class="num">(60)</td></tr>
+            <tr class="emphasis"><td><strong>Gross margin</strong></td><td class="num"><strong>40%</strong></td></tr>
+            <tr><td>SG&amp;A <span class="muted">(fixed)</span></td><td class="num">(25)</td></tr>
+            <tr class="total"><td><strong>EBITDA margin</strong></td><td class="num"><strong>15%</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="math-arrow">→</div>
+
+      <div class="math-col after">
+        <div class="math-tag">After AI deployment</div>
+        <table>
+          <tbody>
+            <tr><td>Revenue</td><td class="num">100</td></tr>
+            <tr><td>Cost of services <span class="muted">(variable)</span></td><td class="num">(42)</td></tr>
+            <tr class="emphasis"><td><strong>Gross margin</strong></td><td class="num gradient-text"><strong>58%</strong></td></tr>
+            <tr><td>SG&amp;A <span class="muted">(fixed)</span></td><td class="num">(18)</td></tr>
+            <tr class="total"><td><strong>EBITDA margin</strong></td><td class="num gradient-text"><strong>40%</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <p class="math-caveat">
+      Illustrative — not a forecast. Real deployments vary by industry, complexity, and team
+      readiness. The shape, not the precise numbers, is what matters: <strong>both lines move,
+      and they multiply.</strong>
+    </p>
+
+    <div class="prose">
+      <p>
+        That's <strong>2.7× EBITDA</strong> from operating leverage alone — before any growth.
+        Then apply growth on top, because the same headcount can now serve a larger book.
+      </p>
+      <p>
+        For a search-fund acquisition, that math is the whole game: buy at 4 – 6× EBITDA,
+        expand margin via AI deployment, exit at a multiple that's both <em>higher</em> (because
+        the business is now scarcer and more profitable) and applied to a <em>larger</em> EBITDA.
+        The compounding is multiplicative, not additive.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============== WHY NOW ============== -->
+  <section class="section">
+    <header class="section-head">
+      <span class="section-kicker">// timing</span>
+      <h2>Why now.</h2>
+      <p class="section-sub">
+        Three things converged in the last 24 months. The mid-market service business that
+        hasn't yet adopted AI is where the asymmetric opportunity lives — larger competitors have
+        started; SMBs haven't. The gap is the alpha.
+      </p>
+    </header>
+
+    <div class="trio">
+      {whyNow.map((w) => (
+        <article class="trio-card">
+          <span class="trio-num">{w.n}</span>
+          <h3>{w.title}</h3>
+          <p>{w.body}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <!-- ============== WHY SEARCH FUND ============== -->
+  <section class="section">
+    <header class="section-head">
+      <span class="section-kicker">// vehicle fit</span>
+      <h2>Why search funds, specifically.</h2>
+      <p class="section-sub">
+        The same AI capability is available to public companies, PE roll-ups, and SMB owners.
+        The vehicle determines who actually captures the value.
+      </p>
+    </header>
+
+    <ul class="reasons">
+      {whySearchFund.map((r, i) => (
+        <li>
+          <div class="reason-num">0{i + 1}</div>
+          <div>
+            <h3>{r.title}</h3>
+            <p>{r.body}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <!-- ============== ORDER OF OPERATIONS ============== -->
+  <section class="section">
+    <header class="section-head">
+      <span class="section-kicker">// sequencing</span>
+      <h2>Order of operations.</h2>
+      <p class="section-sub">
+        Not every AI deployment moves margin. The 30% of activities that consume 70% of
+        low-margin labor are where we focus first.
+      </p>
+    </header>
+
+    <ol class="sequence">
+      {sequence.map((s, i) => (
+        <li>
+          <div class="seq-time">
+            <span class="seq-window">{s.window}</span>
+            <span class="seq-focus">{s.focus}</span>
+          </div>
+          <div class="seq-body">{s.body}</div>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- ============== CTA ============== -->
+  <section class="cta-block">
+    <div class="cta-inner">
+      <span class="section-kicker">// next</span>
+      <h2>Building this with us.</h2>
+      <p>
+        If you're an investor interested in the asset class, an owner of a service business
+        approaching transition, or an operator who wants to compare notes — we're listening.
+      </p>
+      <div class="cta-row">
+        <a href="/contact" class="btn btn-primary">
+          Get in touch
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+            <path d="M5 2l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
+        <a href="/what" class="btn btn-ghost">Read the thesis</a>
+      </div>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  .section {
+    margin: 90px 0;
+  }
+  .section.first {
+    margin-top: 0;
+  }
+  .section-head {
+    margin-bottom: 48px;
+    max-width: 720px;
+  }
+  .section-kicker {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 14px;
+  }
+  .section-head h2 {
+    font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+    margin: 0 0 18px;
+  }
+  .section-head h2 em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+  }
+  .section-sub {
+    color: var(--fg-muted);
+    margin: 0;
+    max-width: 60ch;
+    font-size: 15.5px;
+    line-height: 1.7;
+  }
+  .section-sub em {
+    font-family: var(--font-serif);
+    font-style: italic;
+  }
+
+  /* ============== WEDGES ============== */
+  .wedges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  .wedge {
+    padding: 32px;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0));
+    position: relative;
+    overflow: hidden;
+  }
+  .wedge::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 280px;
+    height: 280px;
+    background: radial-gradient(circle, rgba(110, 231, 255, 0.08), transparent 60%);
+    filter: blur(30px);
+    pointer-events: none;
+  }
+  .wedge:nth-child(2)::before {
+    background: radial-gradient(circle, rgba(167, 139, 250, 0.08), transparent 60%);
+  }
+  .wedge-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .wedge-num {
+    color: var(--accent);
+  }
+  .wedge:nth-child(2) .wedge-num {
+    color: var(--accent-2);
+  }
+  .wedge-label {
+    color: var(--fg-subtle);
+  }
+  .wedge h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    margin: 0 0 22px;
+    line-height: 1.3;
+  }
+  .wedge ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .wedge li {
+    padding-left: 18px;
+    position: relative;
+    color: var(--fg-muted);
+    font-size: 14.5px;
+    line-height: 1.55;
+  }
+  .wedge li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+  .wedge:nth-child(2) li::before {
+    color: var(--accent-2);
+  }
+
+  /* ============== MATH ============== */
+  .math-section {
+    padding: 60px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: var(--bg-elevated);
+    position: relative;
+    overflow: hidden;
+  }
+  .math-section::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(167, 139, 250, 0.1), transparent 60%);
+    filter: blur(40px);
+    pointer-events: none;
+  }
+  .math {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  .math-col {
+    padding: 28px 32px;
+    border-radius: 14px;
+    border: 1px solid var(--border-strong);
+    background: var(--bg);
+  }
+  .math-col.after {
+    border-color: rgba(167, 139, 250, 0.4);
+    box-shadow: 0 0 60px rgba(167, 139, 250, 0.1);
+  }
+  .math-tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fg-subtle);
+    margin-bottom: 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .math-col.after .math-tag {
+    color: var(--accent-2);
+  }
+  .math table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .math td {
+    padding: 9px 0;
+    font-size: 14.5px;
+    color: var(--fg-muted);
+  }
+  .math td.num {
+    font-family: var(--font-mono);
+    text-align: right;
+    color: var(--fg);
+  }
+  .math td .muted {
+    color: var(--fg-subtle);
+    font-size: 12px;
+  }
+  .math tr.emphasis td,
+  .math tr.total td {
+    color: var(--fg);
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+  }
+  .math tr.total td {
+    padding-top: 14px;
+    border-top: 1px solid var(--border-strong);
+  }
+  .math .gradient-text {
+    background: linear-gradient(120deg, var(--accent) 0%, var(--accent-2) 55%, var(--accent-3) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .math-arrow {
+    font-family: var(--font-mono);
+    font-size: 24px;
+    color: var(--accent);
+    text-align: center;
+    opacity: 0.7;
+  }
+  .math-caveat {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--fg-subtle);
+    line-height: 1.7;
+    max-width: 64ch;
+    margin: 0 auto 36px;
+    text-align: center;
+    padding: 16px 24px;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
+  }
+  .math-caveat strong {
+    color: var(--fg-muted);
+    font-weight: 500;
+  }
+
+  /* ============== TRIO (why now) ============== */
+  .trio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .trio-card {
+    padding: 32px 28px;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), rgba(255, 255, 255, 0));
+  }
+  .trio-num {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    display: block;
+    margin-bottom: 14px;
+  }
+  .trio-card h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+  }
+  .trio-card p {
+    color: var(--fg-muted);
+    font-size: 14px;
+    line-height: 1.65;
+    margin: 0;
+  }
+
+  /* ============== REASONS (why search fund) ============== */
+  .reasons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--border);
+  }
+  .reasons li {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 28px;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--border);
+    align-items: start;
+  }
+  .reason-num {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    padding-top: 4px;
+  }
+  .reasons h3 {
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    margin: 0 0 8px;
+  }
+  .reasons p {
+    color: var(--fg-muted);
+    font-size: 14.5px;
+    line-height: 1.7;
+    margin: 0;
+    max-width: 70ch;
+  }
+
+  /* ============== SEQUENCE ============== */
+  .sequence {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    counter-reset: seq;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .sequence li {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 32px;
+    padding: 28px 0;
+    border-top: 1px solid var(--border);
+    counter-increment: seq;
+    position: relative;
+  }
+  .sequence li:last-child {
+    border-bottom: 1px solid var(--border);
+  }
+  .seq-time {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .seq-window {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fg-subtle);
+  }
+  .seq-focus {
+    font-size: 1.1rem;
+    color: var(--fg);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+  .seq-body {
+    color: var(--fg-muted);
+    font-size: 14.5px;
+    line-height: 1.7;
+    max-width: 70ch;
+  }
+
+  /* ============== CTA ============== */
+  .cta-block {
+    margin: 120px 0 0;
+    padding: 70px 50px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(110, 231, 255, 0.06) 0%, rgba(167, 139, 250, 0.06) 60%, rgba(240, 171, 252, 0.04) 100%);
+    border: 1px solid var(--border-strong);
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-block::before {
+    content: '';
+    position: absolute;
+    top: -150px;
+    left: -150px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(110, 231, 255, 0.12), transparent 60%);
+    filter: blur(40px);
+    pointer-events: none;
+  }
+  .cta-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 640px;
+  }
+  .cta-block h2 {
+    font-size: clamp(1.7rem, 3.4vw, 2.4rem);
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+    margin: 0 0 16px;
+  }
+  .cta-block p {
+    color: var(--fg-muted);
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 0 0 32px;
+    max-width: 60ch;
+  }
+  .cta-row {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 22px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.25s ease;
+    border: 1px solid transparent;
+  }
+  .btn-primary {
+    background: var(--fg);
+    color: var(--bg);
+  }
+  .btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 40px rgba(231, 234, 240, 0.18);
+  }
+  .btn-ghost {
+    border-color: var(--border-strong);
+    color: var(--fg);
+  }
+  .btn-ghost:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--fg-subtle);
+  }
+
+  /* ============== RESPONSIVE ============== */
+  @media (max-width: 860px) {
+    .wedges,
+    .trio {
+      grid-template-columns: 1fr;
+    }
+    .math {
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .math-arrow {
+      transform: rotate(90deg);
+    }
+    .math-section {
+      padding: 32px 24px;
+    }
+    .reasons li,
+    .sequence li {
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .reason-num {
+      padding-top: 0;
+    }
+    .cta-block {
+      padding: 50px 28px;
+    }
+  }
+</style>
